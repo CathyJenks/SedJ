@@ -2,6 +2,14 @@
 title: "SedJ"
 ---
 
+# Sedimental Journeys - The Life and Legacy of Herb Wright
+
+![Herb Wright in the Boundary Waters Canoe Area, 2004. Photo: Brigitta Ammann](images/Herb_BWCA.jpg){.illustration fig-alt="An elderly man on a small boat in a lake"}
+
+This eBook is a collection of essays, articles, tales of field adventures, poems, eulogies, and picture galleries about Herb Wright and his varied life and enormous legacy. They are all by friends, students, and colleagues of Herb.
+
+## Chapters
+
 This is a Quarto website.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
