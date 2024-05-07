@@ -1,8 +1,8 @@
 ---
-title: "SedJ"
+title: "Sedimental Journeys"
 ---
 
-# Sedimental Journeys - The Life and Legacy of Herb Wright
+# The Life and Legacy of Herb Wright
 
 ![Herb Wright in the Boundary Waters Canoe Area, 2004. Photo: Brigitta Ammann](images/Herb_BWCA.jpg){.illustration fig-alt="An elderly man on a small boat in a lake"}
 
@@ -64,10 +64,3 @@ Eat Wright - contributed by Hilary Birks
 
 [List of publications](WrightHE_Publications.qmd) - compiled by Cathy Jenks and John Birks
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
