@@ -1,0 +1,71 @@
+# When Herb Wright had red hair: the fossil pollen years 
+
+by *John H. McAndrews*
+
+## Herb the palynologist
+
+Herb initiated the pollen lab in 1958 by combining Magnus Fries from Sweden with a Leitz Labolux microscope from Germany. Herb prepared for the pollen lab by publishing two review papers that featured pollen analysis (Wright 1957, 1961) and by attending John Rowley’s palynology lectures: he briefly looked at fossil pollen, but abandoned this dull exercise to the rest of us. Early graduate students included Ed Cushing, Lou Maher, Bob Bright, Dick Baker, Tom Winter, Barbara Spross, Tom Shay and me. At first, we collected sediment from sections (Jelgersma 1962, Farnham et al. 1963), but then we shifted to lake mud with its long postglacial pollen record. Influential visitors were Magnus Fries (pollen), Bill Watts (macrofossils), Willem van Zeist (Iran) and Roel Janssen (small, shallow sites).
+
+Twice Herb had me count pollen in surface samples. One summer he visited Bob Bright’s research area in Wyoming. On his all-night drive back to Minneapolis across the Great Plains, he stopped about every 20 miles and collected soil surface plant litter. Besides grass and sage pollen there was much pine and surprisingly some pollen from Douglas fir (McAndrews and Wright 1969). In 1963, Herb came through again with funding: I landed a postdoctoral position in the Netherlands – the problem was finding trans-Atlantic travel money. For this, he swung a grant from the US Office of Naval Research for the pollen analysis of soil surface samples from Iran of all places (Wright et al, 1967).
+
+## Herb the inventor
+
+For field collection, at first we used the side-opening Hiller borer that was best suited for bog peat. For lake mud, we shifted to the end-opening stationary-piston corer pioneered by Dan Livingstone (Wright et al. 1965). Herb’s improvement featured a retractable rod that held the piston in the coring tube as the tube approached sampling depth. The first model had a round rod with a spring catch to hold the cocked rod before pushing down to fill the tube with mud. However, the catch often jammed so Herb invented the rotating square-rod model (Wright 1967). For the upper watery mud-water interface, we used the R-D piston sampler (Rowley and Dahl 1956), where friction rather than a rod held the piston stationary. The secret of getting a good core segment was to allow water in and out of the tube through a hole just below the top of the tube.
+
+Herb solved the problem of preserving laminations in the upper watery mud by freezing in place using dry ice. The first model was designed to freeze a core within a tube (Shapiro 1958): it turned out to be unworkable and so Herb had the idea of freezing a rind of mud around a tube filled with dry ice (Wright 1980). At Crawford Lake, Ontario, following Herb’s instructions, we built a freezing tube using a 3 m long irrigation pipe plugged at one end, filled it with dry ice and alcohol and capped it with a rubber glove that had a slit finger to release CO~2~ (McAndrews 1967). To this we attached a rope, and then cut a hole in the ice of Crawford Lake and launched the tube. It did not sink down to the mud, but just bobbed up and down; Herb forgot to tell us to add lead weights. This “frigid-finger” model has been replaced by a wedge-shaped “frigid finger-nail” of Scandinavian design. Crawford Lake turns out to have a varved pollen and macrofossil record of 15^th^ century CE Iroquoian Landnam that was enhanced by roosting and defecating Canada Geese (McAndrews and Turton 2007).
+
+## Herb the promotor
+
+Minnesota’s Itasca Park has been a focus of fossil pollen-aided paleoecological research. This includes my dissertation work using pollen linked to the pre-settlement land survey (McAndrews 1966). The modern pine forest was preceded successively by mid-Holocene deciduous forest and then by arid prairie. In the Park, Tom Shay excavated a bison kill site dating to the early Holocene (Shay 1971). This was the background for the Elk Lake volume that featured multidisciplinary sediment studies (Bradbury and Dean 1993). Herb cored Elk Lake several times: once I experienced his wondrous persistence in the field. It was a late winter afternoon when we began coring. The weather was mild, around freezing, and the going was slow because of deep water. Several meters were landed before the sun set. “Don’t worry”, says Herb, “I have a flashlight”. Yes he did, but the batteries were dead. “Don’t worry,” says Herb, “I have matches”. So we land some more meters by match light. Then Herb runs out of matches. “Don’t worry” says Herb, “the moon is coming up”. So we land some more meters by moonlight. Then clouds obscured the moon and Herb reluctantly called it quits. Afterward, he complained that the published sediment chronology was inaccurate (if it were not for the clouds?).
+
+## Herb the editor
+
+Herb rewrote my dissertation on the Itasca transect. It went like this; I would pencil and type a paragraph, then take it to Herb; he who would stop what he was doing, pencil-in corrections of syntax, gender, spelling, commas, verb agreement etc. and hand it back without comment. I would retype the corrected copy, hack out the next paragraph, and repeat the process. Two hundred and fifty-nine paragraphs later, I had a defensible dissertation. When it came to publishing it, I asked Herb if he wanted to be coauthor – he refused.
+
+## Herb the resourceful traveller
+
+In 1962 he loaded Ed Cushing, Bill Watts, me and others into his 1950’s era station wagon and set out for the Palynology Congress in Tucson, Arizona. Ed and I added a can of gasoline to the load because the gas gauge was broken, the gas tank leaked and Herb’s estimate of gas in the tank was a some-time thing. In Nebraska, a front wheel began vibrating, spewing mud through a hole in the fender – it was not mud but rubber: we then stopped for a new wheel bearing and tire. On the way back, we collected a peat deposit on the Rosebud Indian Reservation (Watts and Wright 1966). After peat collection, the wagon had a flat. “No problem”, says Herb, “we have a spare”. Upon unloading sleeping bags and other camping impedimenta, there indeed was the spare, but there was no air in the spare. Herb, ever resourceful, flags down the next Indian pickup and throws the airless spare in the back. Before leaving in the pickup, he takes me aside, pulls out his wallet, pockets a five-dollar bill and hands me the wallet. An hour later the pickup returns with Herb and air in the spare. I give Herb his wallet back and we were off home to Minneapolis.
+
+## Herb the career promoter
+
+Herb recommended me for my job in Toronto. After three years in the small-college wilderness, I landed at the Royal Ontario Museum analyzing pollen in mud of the Great Lakes. It turns out that the Great Lakes had low levels (Lewis et al. 2008) during the dry prairie period in Minnesota.
+
+## Herb the impresario
+
+Finally, I fondly remember Herb’s home seminars on topics Quaternary, e.g. Red Watson on mammoth and mastodon. At first, only five of we students attended, but as the years rolled by and red hair turned to gray, attendance grew to the point that Herb knocked down a wall to accommodate dozens of seminarians. Herb never had much to say, but he encouraged us to voice our ideas, particularly over his post-seminar chocolate-chip cookies and “Constant Comment” tea.
+
+### References 
+
+Bradbury, J.P. and Dean, W.E. (eds). 1994. Elk Lake, Minnesota: Evidence for rapid climate change in the north-central United States. *Geological Society of America Special Paper* 276.
+
+Farnham, R.S., McAndrews, J.H. and Wright Jr., H.E. 1964. A late-Wisconsin buried soil near Aitkin, Minnesota, and its paleobotanical setting. *American Journal of Science* 262: 393-412.
+
+Jelgersma, S. 1962. A lateg1acial pollen diagram from Madelia, south-central Minnesota. *American Journal of Science* 260: 522-529.
+
+Lewis, C.F.M., Blasco, S.M., Heil Jr., C.W., Narragansett, R.I., Hubeny, J.B., Brooks, G.R., Medioli, B.E., Coakley, J.P., Croley, T.E., Dettman, D.L., Edwards II, T.W.D., Laird, K.R., McAndrews, J.H., McCarthy, F.M.G., Moore Jr., T.C., Rea, D.K. and Smith, A.J. 2008. Holocene dry climate disconnected the Laurentian Great Lakes. *EOS* 89(52): 540-541.
+
+McAndrews. J.H. 1966. Postglacial history of prairie, savanna, and forest in northwestern Minnesota. *Torrey Botanical Club Memoirs* 22: 1-72.
+
+McAndrews, J.H. 1976. Fossil history of Man’s impact on the Canadian flora: an example from southern Ontario. *Bulletin of the Canadian Botanical Association* 9(1): 1-6.
+
+McAndrews, J.H. and Wright Jr., H.E. 1969. Modern pollen rain across the Wyoming Basin and the northern Great Plains, U.S.A. *Review Palaeobotany and Palynology* 9: 17-43.
+
+McAndrews**,** J.H. and Turton, C.L. 2007. Canada geese transported cultigen pollen grains to Crawford Lake from 14^th^ and 15^th^ century Iroquoian maize fields. *Palynology* 31: 9-18.
+
+Rowley, J. and Dahl, A.O. 1956. Modification in the design and use of the Livingstone piston sampler. *Ecology* 37: 849-851.
+
+Shapiro, J. 1958. The Core-Freezer--a new sampler for lake sediments. *Ecology* 39: 758.
+
+Shay, C.T. 1971. *The Itasca Bison Kill Site -- an Ecological Analysis*. Minnesota Historical Society, St. Paul, 133 p.
+
+Watts, W.A. and Wright Jr., H.E. 1966. Late-Wisconsin pollen and seed analysis from the Nebraska Sandhills. *Ecology* 47: 202-210.
+
+Wright Jr, H.E. 1957. The Late Glacial chronology of Europe – a discussion. *American* *Journal of Science* 255: 447-460.
+
+Wright Jr, H.E. 1961. Late Pleistocene climate of Europe: a review. *Geological Society of America Bulletin* 72: 933-984.
+
+Wright Jr, H.E., Livingstone, D.A. and Cushing, E.J. 1965. Coring devices for lake sediments. In: B. Kummel and D.M. Raup (ed.): *Handbook of Paleontological Techniques*. W.H. Freeman, San Francisco, pp. 494-520. 
+
+Wright Jr, H.E.1967. A square-rod piston sampler for lake sediments. *Journal of Sedimentary Petrology* 37: 975-976.
+
+Wright Jr, H.E., McAndrews, J.H. and van Zeist, W. 1967. Modem pollen rain in western Iran, and its relation to plant geography and Quaternary vegetational history. *Journal of Ecology* 55: 415-443.
