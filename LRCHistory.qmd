@@ -1,10 +1,14 @@
 # Historical Notes on the Limnological Research Center
 
-by *H.E. Wright* 20 August 1994
+by *H.E. Wright*
 
-The incentive for these notes comes from the initiative of Geoff Seltzer to assemble as many of the LRC alumni and alumnae as could be found on short notice for a photograph on the steps of Pillsbury Hall on the occasion of the American Quaternary Association meeting in June (1994). Everyone was arrayed chronologically on the steps, and a list was compiled with names and periods of tenure. I thought it would be interesting to provide some notes to supplement the bare chronology, and to add the names of those graduate students and post-docs in or near the LRC \_who frequented Pillsbury Hall and who are not represented in the photograph. The LRC was preceded by the pollen laboratory, initiated in 1956 by a grant from the Hill Family Foundation. In 1963 the LRC was established by a separate grant from the Hill Family Foundation, and the pollen laboratory was incorporated within it. The pollen laboratory revolved in successive years around the year-long visits of experienced paleoecologists from European laboratories, starting with Magnus Fries from Sweden and followed by Saskia Jelgersma from The Netherlands, Willem van Zeist from The Netherlands, Bill Watts from Ireland, Roel Janssen from The Netherlands, Maj-Britt Florin from Sweden, Krystyna Wasylikowa and Kazik Wasylik from Poland, Johanna and Eberhard Grüger from Germany, Elizabeth Haworth from England, John and Hilary Birks from England, and (in later years) Rick Battarbee from England, Svante Björck from Sweden, and Jan Janssens from Belgium via Canada. Several of these persons returned in subsequent years, notably Bill Watts, Roel Janssen, John Birks, and Svante Björck. Foreign visitors for several months included Richard West and Kevin Edwards (England), Jan Mangerud (Norway), Norio Fuji (Japan), and Alojz Sercelj (Yugoslavia). On the neolimnological side Gunilla Lindmark came from Sweden and Dragica Matulova from Czechoslovakia. This foreign flavor was supplemented by students from Ireland (Alan Craig, Norman Allott, Henry Lamb, Joan Lennon, Roger Dutton), Japan (Junko Ogawa), Finland (Liisa Koivo), Canada (Vern Rampton), Sweden (Kerstin Griffin, Elisabeth Almgren, Karin Ahlberg), The Netherlands (Rik Jansen), and Belgium (Dirk Verschuren). In the last few years with the coming of Kerry Kelts from Switzerland the foreign contingent has included post-docs from Spain (Bias Valero­Garces), Germany (Antje Schwalb), France (Babette Truze), and Canada (Brian Cumming), as well as students from China (Juanjuan Xia, Jun-Qing Yu, Zhigang Gong, Yue Han). Non-foreign post-docs have included Ed Cushing, Bob Megard, Linda Shane, Paul Glaser, Dan Engstrom, Sheri Fritz, John Bradbury, Mel Whiteside, Dick Brugam, Tom Crisman, John Kingston, Brian Haskell, and Michael Rosen. Jean Waddington managed the pollen laboratory for many years before Linda Shane. Tom Johnson of the Geology faculty was closely affiliated with the LRC just before moving to Duluth, and Emi Ito has recently become an active member. Of course, many others were associated with the LRC over the years, such as technicians, secretaries, and undergraduate helpers, and many of these were critical for the social ambience. In the following list the numbers before the names are keyed to the photograph. The dates were provided by those present or were extracted from annual reports of the LRC or other sources. Current locations are given where known. Any corrections and up-dating would be appreciated. 20 August 1994
+The incentive for these notes comes from the initiative of Geoff Seltzer to assemble as many of the LRC alumni and alumnae as could be found on short notice for a photograph on the steps of Pillsbury Hall on the occasion of the American Quaternary Association meeting in June (1994). Everyone was arrayed chronologically on the steps, and a list was compiled with names and periods of tenure. I thought it would be interesting to provide some notes to supplement the bare chronology, and to add the names of those graduate students and post-docs in or near the LRC \_who frequented Pillsbury Hall and who are not represented in the photograph. The LRC was preceded by the pollen laboratory, initiated in 1956 by a grant from the Hill Family Foundation. In 1963 the LRC was established by a separate grant from the Hill Family Foundation, and the pollen laboratory was incorporated within it. The pollen laboratory revolved in successive years around the year-long visits of experienced paleoecologists from European laboratories, starting with Magnus Fries from Sweden and followed by Saskia Jelgersma from The Netherlands, Willem van Zeist from The Netherlands, Bill Watts from Ireland, Roel Janssen from The Netherlands, Maj-Britt Florin from Sweden, Krystyna Wasylikowa and Kazik Wasylik from Poland, Johanna and Eberhard Grüger from Germany, Elizabeth Haworth from England, John and Hilary Birks from England, and (in later years) Rick Battarbee from England, Svante Björck from Sweden, and Jan Janssens from Belgium via Canada. Several of these persons returned in subsequent years, notably Bill Watts, Roel Janssen, John Birks, and Svante Björck. Foreign visitors for several months included Richard West and Kevin Edwards (England), Jan Mangerud (Norway), Norio Fuji (Japan), and Alojz Sercelj (Yugoslavia). On the neolimnological side Gunilla Lindmark came from Sweden and Dragica Matulova from Czechoslovakia. This foreign flavor was supplemented by students from Ireland (Alan Craig, Norman Allott, Henry Lamb, Joan Lennon, Roger Dutton), Japan (Junko Ogawa), Finland (Liisa Koivo), Canada (Vern Rampton), Sweden (Kerstin Griffin, Elisabeth Almgren, Karin Ahlberg), The Netherlands (Rik Jansen), and Belgium (Dirk Verschuren). In the last few years with the coming of Kerry Kelts from Switzerland the foreign contingent has included post-docs from Spain (Bias Valero­Garces), Germany (Antje Schwalb), France (Babette Truze), and Canada (Brian Cumming), as well as students from China (Juanjuan Xia, Jun-Qing Yu, Zhigang Gong, Yue Han). Non-foreign post-docs have included Ed Cushing, Bob Megard, Linda Shane, Paul Glaser, Dan Engstrom, Sheri Fritz, John Bradbury, Mel Whiteside, Dick Brugam, Tom Crisman, John Kingston, Brian Haskell, and Michael Rosen. Jean Waddington managed the pollen laboratory for many years before Linda Shane. Tom Johnson of the Geology faculty was closely affiliated with the LRC just before moving to Duluth, and Emi Ito has recently become an active member. Of course, many others were associated with the LRC over the years, such as technicians, secretaries, and undergraduate helpers, and many of these were critical for the social ambience. In the following list the numbers before the names are keyed to the photograph. The dates were provided by those present or were extracted from annual reports of the LRC or other sources. Current locations are given where known. Any corrections and up-dating would be appreciated.
 
-## POLLEN LABORATORY AND LIMNOLOGICAL RESEARCH CENTER 1956-1994
+::: {style="text-align: right;"}
+20 August 1994
+:::
+
+## Pollen Laboratory and Limnological Research Center 1956-1994
 
 H.E. Wright 1956 to present (deceased)
 
@@ -290,6 +294,8 @@ Rik Jansen 1993 – University of Utrecht, The Netherlands
 
 ![Key to previous photo](images/LRC-gang_key.jpg){fig-alt="Outline of who is in the photo" fig-align="center"}
 
+:::: {.columns}
+::: {.column width="50%"}
 1.  Bill Watts
 2.  Barbara Hansen
 3.  Dick Baker
@@ -311,6 +317,9 @@ Rik Jansen 1993 – University of Utrecht, The Netherlands
 19. Sheri Fritz
 20. Pietra Gardetto-Mueller
 21. Virginia Card
+:::
+
+::: {.column width="50%"}
 22. Heather Almquist-Jacobson
 23. Juanjuan Xia
 24. Karin Ahlberg
@@ -331,3 +340,5 @@ Rik Jansen 1993 – University of Utrecht, The Netherlands
 39. Brian Cumming
 40. John Halfman
 41. Jun-Qing Yu
+:::
+::::
