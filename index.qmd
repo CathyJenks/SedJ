@@ -4,7 +4,7 @@ title: "Sedimental Journeys"
 
 # The Life and Legacy of Herb Wright
 
-![Herb Wright in the Boundary Waters Canoe Area, 2004. Photo: Brigitta Ammann](images/Herb_BWCA.jpg){.illustration fig-alt="An elderly man on a small boat in a lake"}
+![Herb Wright in the Boundary Waters Canoe Area, 2004. Photo: Brigitta Ammann](images/Herb_BWCA.jpg){.illustration fig-alt="An elderly man on a small boat in a lake" fig-align="center"}
 
 This eBook is a collection of essays, articles, tales of field adventures, poems, eulogies, and picture galleries about Herb Wright and his varied life and enormous legacy. They are all by friends, students, and colleagues of Herb.
 
@@ -14,21 +14,20 @@ Herbert E Wright, Jr - a biography - John Birks
 
 Thoughts and Achievements - An essay by Herb Wright for College English 3, written on 14 November 1932
 
-[Crash Landing Lizzie](CrashingLizzie.qmd) - Herb Wright (transcribed by Dan Engstrom)
+[Crash Landing Lizzie](CrashingLizzie.qmd) - An account of flying a B-17 plane 'Lizzie' in 1944 by Herb Wright (transcribed by Dan Engstrom)\
+List of [subsequent missions](https://95thbgdb.com/person/7315) flown by Herb
 
-List of subsequent missions flown
-
-History of LRC - Herb Wright
+[Historical notes of LRC](LRCHistory.qmd) - An overview of past members of LRC up to 1994 by Herb Wright
 
 Travels in Kurdistan for the Iranian Prehistoric Project - Bob Megard
 
 European palaoecological pioneers in Minnesota 1958-1968 - John Birks
 
-A Coring Expedition - Tom Shay
+[A Coring Expedition](CoringExpedition.qmd) - an account of coring 'Qually Pond', Minnesota in January by Tom Shay
 
 Herb Wright Memorable Events 1961-2015 - Björn E Berglund
 
-When Herb Wright had Red Hair - Jock McAndrews
+[When Herb Wright had Red Hair](RedHairHEW.qmd) - recollections of the fossil pollen years by Jock McAndrews
 
 Adventures in Minnesota 1970: Myrtle Lake to Mantrap Lake - Hilary Birks
 
@@ -36,13 +35,13 @@ The Klutlan Glacier Expedition 1971 - John Birks\
 Appendix 1 - Klutlan aerial photo\
 Appendix 2 - Field seminar table
 
-HEW Memories - Bob Baker
+[HEW Memories](HEWMemories.qmd) - unique occurrences with Herb by Bob Baker
 
-Herb Wright and COHMAP: 1974-1994 - Tom Webb and John Kutzbach
+[Herb Wright and COHMAP: 1974-1994](COHMAP.qmd) - by Tom Webb and John Kutzbach
 
-The Bear and the Rat - Svante Björck
+[The Bear and the Rat](BearRat.qmd) - memories of camping with Herb Wright by Svante Björck
 
-Adventures on Bermuda and in Florida with Herb Wright and Bill Watts - John Birks
+[Adventures on Bermuda and in Florida](Bermuda-Florida.qmd) with Herb Wright and Bill Watts - by John Birks
 
 Travelling with Herb - A photo journal by Brigitta Ammann
 
@@ -63,4 +62,3 @@ Herb-Al - photos from Al Schneider
 Eat Wright - contributed by Hilary Birks
 
 [List of publications](WrightHE_Publications.qmd) - compiled by Cathy Jenks and John Birks
-
