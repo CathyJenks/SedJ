@@ -21,11 +21,11 @@ List of [subsequent missions](https://95thbgdb.com/person/7315) flown by Herb
 
 Travels in Kurdistan for the Iranian Prehistoric Project - Bob Megard
 
-European palaoecological pioneers in Minnesota 1958-1968 - John Birks
+[European palaoecological pioneers in Minnesota](EuPalaeoPioneers.qmd) 1958-1968 - an account of the early visitor to the LRC by John Birks
 
 [A Coring Expedition](CoringExpedition.qmd) - an account of coring 'Qually Pond', Minnesota in January by Tom Shay
 
-Herb Wright Memorable Events 1961-2015 - Björn E Berglund
+[Herb Wright Memorable Events](MemorableMoments.Rmd) 1961-2015 - photos from Björn E Berglund from meetings with Herb
 
 [When Herb Wright had Red Hair](RedHairHEW.qmd) - recollections of the fossil pollen years by Jock McAndrews
 
@@ -35,7 +35,7 @@ The Klutlan Glacier Expedition 1971 - John Birks\
 Appendix 1 - Klutlan aerial photo\
 Appendix 2 - Field seminar table
 
-[HEW Memories](HEWMemories.qmd) - unique occurrences with Herb by Bob Baker
+[Memories of HEWright](HEWMemories.qmd) - unique occurrences with Herb by Bob Baker
 
 [Herb Wright and COHMAP: 1974-1994](COHMAP.qmd) - by Tom Webb and John Kutzbach
 
