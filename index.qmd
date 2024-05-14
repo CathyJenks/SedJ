@@ -45,7 +45,7 @@ Appendix 2 - Field seminar table
 
 Travelling with Herb - A photo journal by Brigitta Ammann
 
-Herb Wright - A Picture Gallery - Pim van der Knaap and Jacqueline van Leeuwen
+[Herb Wright - A Picture Gallery](HerbGallery.qmd) - photos by Pim van der Knaap and Jacqueline van Leeuwen of various International Moor Excursions plus other events
 
 [The Ice Man of Wengen](IceManWengen.qmd) (written for the celebration of Herb's 80th birthday in Wengen, Switzerland) - Jim Almendinger
 
