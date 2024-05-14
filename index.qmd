@@ -25,7 +25,7 @@ List of [subsequent missions](https://95thbgdb.com/person/7315) flown by Herb
 
 [A Coring Expedition](CoringExpedition.qmd) - an account of coring 'Qually Pond', Minnesota in January by Tom Shay
 
-[Herb Wright Memorable Events](MemorableMoments.Rmd) 1961-2015 - photos from Björn E Berglund from meetings with Herb
+[Herb Wright Memorable Events](MemorableMoments.qmd) 1961-2015 - photos from Björn E Berglund from meetings with Herb
 
 [When Herb Wright had Red Hair](RedHairHEW.qmd) - recollections of the fossil pollen years by Jock McAndrews
 
