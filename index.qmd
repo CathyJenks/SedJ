@@ -19,7 +19,7 @@ List of [subsequent missions](https://95thbgdb.com/person/7315) flown by Herb
 
 [Historical notes of LRC](LRCHistory.qmd) - An overview of past members of LRC up to 1994 by Herb Wright
 
-Travels in Kurdistan for the Iranian Prehistoric Project - Bob Megard
+[Travels in Kurdistan](Kurdistan.qmd) for the Iranian Prehistoric Project - Photos provided by Bob Megard of the expeditions to Kurdistan in the late 1950s/early 1960s
 
 [European palaoecological pioneers in Minnesota](EuPalaeoPioneers.qmd) 1958-1968 - an account of the early visitor to the LRC by John Birks
 
