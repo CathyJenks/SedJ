@@ -25,11 +25,11 @@ List of [subsequent missions](https://95thbgdb.com/person/7315) flown by Herb
 
 [A Coring Expedition](CoringExpedition.qmd) - an account of coring 'Qually Pond', Minnesota in January by Tom Shay
 
-[Herb Wright Memorable Events](MemorableMoments.qmd) 1961-2015 - photos from Björn E Berglund from meetings with Herb
+[Herb Wright Memorable Events](MemorableMoments.qmd) 1961-2015 - photos from BjC6rn E Berglund from meetings with Herb
 
 [When Herb Wright had Red Hair](RedHairHEW.qmd) - recollections of the fossil pollen years by Jock McAndrews
 
-Adventures in Minnesota 1970: Myrtle Lake to Mantrap Lake - Hilary Birks
+[Adventures in Minnesota 1970: Myrtle Lake to Mantrap Lake](MyrtleMantrap.qmd) - Hilary Birks
 
 The Klutlan Glacier Expedition 1971 - John Birks\
 Appendix 1 - Klutlan aerial photo\
@@ -39,7 +39,7 @@ Appendix 2 - Field seminar table
 
 [Herb Wright and COHMAP: 1974-1994](COHMAP.qmd) - by Tom Webb and John Kutzbach
 
-[The Bear and the Rat](BearRat.qmd) - memories of camping with Herb Wright by Svante Björck
+[The Bear and the Rat](BearRat.qmd) - memories of camping with Herb Wright by Svante BjC6rck
 
 [Adventures on Bermuda and in Florida](Bermuda-Florida.qmd) with Herb Wright and Bill Watts - by John Birks
 
