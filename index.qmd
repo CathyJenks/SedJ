@@ -57,7 +57,7 @@ Where Herb Has Not Yet Gone Before (written for the celebration of Herb's 90th b
 
 A Brief Summary of the Career of H.E. Wright - Jim Almendinger
 
-Herb-Al - photos from Al Schneider
+[Herb-Al](Herb-Al.qmd) - photos from Al Schneider
 
 Eat Wright - contributed by Hilary Birks
 
