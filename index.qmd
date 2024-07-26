@@ -59,6 +59,6 @@ A Brief Summary of the Career of H.E. Wright - Jim Almendinger
 
 [Herb-Al](HerbAl.qmd) - photos from Al Schneider
 
-Eat Wright - contributed by Hilary Birks
+[Eat Wright](EatWright.qmd) - contributed by Hilary Birks
 
 [List of publications](WrightHE_Publications.qmd) - compiled by Cathy Jenks and John Birks

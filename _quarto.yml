@@ -33,6 +33,7 @@ website:
           - HerbNotGone.qmd
           - LRC-reunion2013.qmd
           - HerbAl.qmd
+          - EatWright.qmd
           - WrightHE_Publications.qmd
       
 format:
