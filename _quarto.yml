@@ -12,7 +12,7 @@ website:
     style: "docked"
     search: true
     contents:
-      - section: "Basics"
+      - section: "Chapters"
         contents:
           - index.qmd
           - HerbBiography.qmd
@@ -30,6 +30,7 @@ website:
           - Bermuda-Florida.qmd
           - HerbGallery.qmd
           - IceManWengen.qmd
+          - HerbNotGone.qmd
           - LRC-reunion2013.qmd
           - HerbAl.qmd
           - WrightHE_Publications.qmd
