@@ -10,7 +10,7 @@ This eBook is a collection of essays, articles, tales of field adventures, poems
 
 ## Chapters
 
-Herbert E Wright, Jr - a biography - John Birks
+[Herbert E Wright, Jr - a biography](HerbBiography.qmd) - by John Birks
 
 Thoughts and Achievements - An essay by Herb Wright for College English 3, written on 14 November 1932
 
@@ -25,7 +25,7 @@ List of [subsequent missions](https://95thbgdb.com/person/7315) flown by Herb
 
 [A Coring Expedition](CoringExpedition.qmd) - an account of coring 'Qually Pond', Minnesota in January by Tom Shay
 
-[Herb Wright Memorable Events](MemorableMoments.qmd) 1961-2015 - photos from BjC6rn E Berglund from meetings with Herb
+[Herb Wright Memorable Events](MemorableMoments.qmd) 1961-2015 - photos from Björn E Berglund from meetings with Herb
 
 [When Herb Wright had Red Hair](RedHairHEW.qmd) - recollections of the fossil pollen years by Jock McAndrews
 
@@ -39,7 +39,7 @@ Appendix 2 - Field seminar table
 
 [Herb Wright and COHMAP: 1974-1994](COHMAP.qmd) - by Tom Webb and John Kutzbach
 
-[The Bear and the Rat](BearRat.qmd) - memories of camping with Herb Wright by Svante BjC6rck
+[The Bear and the Rat](BearRat.qmd) - memories of camping with Herb Wright by Svante Björck
 
 [Adventures on Bermuda and in Florida](Bermuda-Florida.qmd) with Herb Wright and Bill Watts - by John Birks
 
