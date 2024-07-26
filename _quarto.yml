@@ -31,6 +31,7 @@ website:
           - HerbGallery.qmd
           - IceManWengen.qmd
           - LRC-reunion2013.qmd
+          - HerbAl.qmd
           - WrightHE_Publications.qmd
       
 format:

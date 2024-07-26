@@ -3,7 +3,7 @@ on:
     branches:
       - main
 
-name: Render and Publish
+name: Quarto Publish
 
 # you need these permissions to publish to GitHub pages
 # permissions: 
@@ -13,6 +13,9 @@ name: Render and Publish
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      
     
     steps:
       - name: Check out repository
@@ -20,8 +23,13 @@ jobs:
         
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+        
+      - name: Render and Publish
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           # To install LaTeX to build PDF book 
           tinytex: true 
