@@ -16,6 +16,7 @@ website:
         contents:
           - index.qmd
           - HerbBiography.qmd
+          - HEWThoughts-qmd
           - CrashingLizzie.qmd
           - LRCHistory.qmd
           - Kurdistan.qmd

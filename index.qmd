@@ -12,7 +12,7 @@ This eBook is a collection of essays, articles, tales of field adventures, poems
 
 [Herbert E Wright, Jr - a biography](HerbBiography.qmd) - by John Birks
 
-Thoughts and Achievements - An essay by Herb Wright for College English 3, written on 14 November 1932
+[Thoughts and Achievements](HEWThoughts.qmd) - An essay by Herb Wright for College English 3, written on 14 November 1932
 
 [Crash Landing Lizzie](CrashingLizzie.qmd) - An account of flying a B-17 plane 'Lizzie' in 1944 by Herb Wright (transcribed by Dan Engstrom)\
 List of [subsequent missions](https://95thbgdb.com/person/7315) flown by Herb
