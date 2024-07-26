@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>SedJ – travelling-with-herb</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">SedJ</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html" rel="" target="">
+ <span class="menu-text">About</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Basics</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Sedimental Journeys</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./HerbBiography.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Herbert E Wright, Jr – a biography</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./CrashingLizzie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Crash Landing of ‘Lizzie’</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./LRCHistory.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Historical Notes on the Limnological Research Center</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Kurdistan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Travels in Kurdistan</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./EuPalaeoPioneers.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">European palaeoecological pioneers in Minnesota 1958–1968</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./CoringExpedition.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">A Coring Expedition</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./MemorableMoments.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Herb Wright memorable events 1961-2015</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./RedHairHEW.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">When Herb Wright had red hair: the fossil pollen years</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./MyrtleMantrap.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Adventures in Minnesota 1970: From Myrtle Lake to Mantrap Lake</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./HEWMemories.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HEW Memories</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./COHMAP.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Herb Wright and COHMAP: 1974-1994</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./BearRat.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Bear and the Rat</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Bermuda-Florida.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Adventures on Bermuda and in Florida with Herb Wright and Bill Watts</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./HerbGallery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Herb Wright - A Picture Gallery</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./IceManWengen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Ice Man of Wengen</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./LRC-reunion2013.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">LRC Reunion 2013</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./WrightHE_Publications.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Publications of Herbert E Wright</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#travelling-with-herb---a-picture-gallery" id="toc-travelling-with-herb---a-picture-gallery" class="nav-link active" data-scroll-target="#travelling-with-herb---a-picture-gallery">Travelling with Herb - a picture gallery</a>
+  <ul class="collapse">
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section">1989</a></li>
+  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1">1990</a></li>
+  <li><a href="#section-2" id="toc-section-2" class="nav-link" data-scroll-target="#section-2">1991</a></li>
+  <li><a href="#section-3" id="toc-section-3" class="nav-link" data-scroll-target="#section-3">1992</a></li>
+  <li><a href="#section-4" id="toc-section-4" class="nav-link" data-scroll-target="#section-4">1993</a></li>
+  <li><a href="#section-5" id="toc-section-5" class="nav-link" data-scroll-target="#section-5">1994</a></li>
+  <li><a href="#section-6" id="toc-section-6" class="nav-link" data-scroll-target="#section-6">1996</a></li>
+  <li><a href="#section-7" id="toc-section-7" class="nav-link" data-scroll-target="#section-7">1997</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+<section id="travelling-with-herb---a-picture-gallery" class="level1">
+<h1>Travelling with Herb - a picture gallery</h1>
+<p>by <em>Brigitta Ammann</em></p>
+<p>Herb was a great traveller and he always had at least two things with him in his mind and his (old) backpack: one or more interesting <strong>scientific questions</strong> and one or more manuscripts to edit.</p>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section">1989</h2>
+<p>Informal discussions can help a lot, be it on scientific or personal levels.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-3263992221.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Ambleside: Hazel Juggins, Henry Lamb, Neil Roberts, Herb, Hilary Birks</figcaption>
+</figure>
+</div>
+</section>
+<section id="section-1" class="level2">
+<h2 class="anchored" data-anchor-id="section-1">1990</h2>
+<p>We Europeans used to think that forest fire was a phenomenon occurring only in Mediterranean and boreal regions but not in central Europe. Then Jim Clark, after completing his thesis in Minnesota, showed us that we were wrong (Clark et al.&nbsp;1989). At Schleinsee, Jim Clark found a remarkable fire history! Herb asked question 1: <strong>“Do you have a fire history in the Alps?”</strong> The answer was: “Sorry, we do not know”. So Herb helped to write a proposal to the Swiss NSF – which enabled Willy Tinner&nbsp; to work out the Holocene fire history for the southern Alps (Tinner et al.&nbsp;1998, 1999) and&nbsp; Madlena Beckmann reconstructed the fire history of the central-Alpine dry valley of Valais (Colombaroli et al.&nbsp;2013).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-376507623.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Herb cycling around Schleinsee, southern Germany</figcaption>
+</figure>
+</div>
+<p>My first of many visits to 1426 Hythe Street, St Paul – a wonderful place for MANY reasons.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-4021201165.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Herb at his home</figcaption>
+</figure>
+</div>
+</section>
+<section id="section-2" class="level2">
+<h2 class="anchored" data-anchor-id="section-2">1991</h2>
+<p>Herb started to like the “International Moor Excursions” initiated in 1975 by Gerhard Lang, described by Gerhard as: ”For advanced students”. But since the sentence “bonus vir semper student” is also valid for women, we all felt happy and inspired by these excursions (http://www.botany.unibe.ch/imoorex/index.php). This XV International Moor Excursion (IME) was led by Roel Janssen, Paula Queiros, José Mateus, Jacqueline van Leeuwen, and Pim van der Knaap. Herb asked question 2:&nbsp; <strong>What can we learn from steep gradients such as elevational transects? For example from the coast to the Serra de Estrela?</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-2563023459.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Herb and Roel Janssen in Lisbon</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-1179846252.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Even in Piazza Navona, Rome, Herb prefers tea to coffee!</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-2462210897.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Herb and Andy Lotter listen to John Birks</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-2837876314.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">John Birks</figcaption>
+</figure>
+</div>
+<p>Herb’s question 3: <strong>How similar or how different are various amphi-atlantic phenomena (Wright 1977, 1989)?</strong> And Herb discussed it with Gerhard Lang.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-2841239493.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Herb and Gerhardt Lang</figcaption>
+</figure>
+</div>
+<p>As a follow-up from question 2, Herb helped us to core five sites in the Central Alps in 1992 (from 600 to 2290 m a.s.l., Ammann et al.&nbsp;2000).</p>
+</section>
+<section id="section-3" class="level2">
+<h2 class="anchored" data-anchor-id="section-3">1992</h2>
+<p>In 1992 we visited Andy Wright in Adelaide and enjoyed the beauties of the Australian south coast and canoeing on the Mighty Murray River.</p>
+<p><img src="images/clipboard-3754626014.png" class="img-fluid"></p>
+</section>
+<section id="section-4" class="level2">
+<h2 class="anchored" data-anchor-id="section-4">1993</h2>
+<p>Herb’s first statement: “Dirk Verschuren needs a new core” – so we cored in the Crescent Island lake of Lake Naivasha (Verschuren et al.&nbsp;2000). Herb’s second statement: ”Always keep the corer vertical”. We had to be back in camp by noon because the hippopotami become active and do not like shadows over their heads!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-2424444836.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Coring Lake Naivasha with Dirk Verschuren</figcaption>
+</figure>
+</div>
+<table class="table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 49%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><img src="images/clipboard-2637159397.png" class="img-fluid" width="282"></td>
+<td><img src="images/clipboard-1682005725.png" class="img-fluid" width="289"></td>
+</tr>
+</tbody>
+</table>
+<p>That same summer Herb also cored three lakes in the Slovak Tatra with Kamil Rybniček (Rybníčková &amp; Rybníček 2006). During the excursion of the ‘History of Mountain Flora’ Conference to the Bulgarian Pirin Mountains, Herb stated: “These lakes deserve proper coring” – so he did in 1994, 2002, and 2006.</p>
+</section>
+<section id="section-5" class="level2">
+<h2 class="anchored" data-anchor-id="section-5">1994</h2>
+<p>This was the summer when Herb cored six lakes in five days in the Rila and Pirin Mountains of Bulgaria guided by Elisaveta Bozilova. We also travelled in Greece, e.g.&nbsp;to Githio in the southern Peloponnese. Herb’s fascination with the eastern Mediterranean possibly had its roots in his early work in the Levant: the coast of Lebanon (1947), Kurdistan (1961), Zagros Mountains (Wright et al.&nbsp;1961, 1963, 1967, Stevens et al.&nbsp;2001), Mycenaean Greece (1968), early food production in Mesopotamia (1968, 1970, 1976, 1993), the Minnesota Messenia expedition (1972) and more. Previously I had thought that “Kalamata” was just a very fine type of olive, but Herb showed me the place and the landscape with its great archaeology.1995</p>
+<p>The Açores are in a way a stepping stone between North America and Europe and are biogeographically very special. On Flores, are two lakes – Lagoa Funda and Lagoa Rasa – which mean profound lake and shallow lake. Of course we could not core Lagoa Funda, but we did core Lagoa Rasa (second attempt in 1998; Connor et al.&nbsp;2012).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-3044512232.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">What secrets do these lakes on the Azores hold?</figcaption>
+</figure>
+</div>
+<p>Herb was always very strong in overcoming obstacles.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-2521097602.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Boundary Waters Canoe Area (BWCA)</figcaption>
+</figure>
+</div>
+<p>Since 1990 we enjoyed the serenity of the BWCA every summer.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-571056025.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">BCWA</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-2594018318.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Ely, with Christopher Wright</figcaption>
+</figure>
+</div>
+<p>The 1995 Moor Excursion in Denmark - classical sites and new results presented by friendly Vikings Bent Aaby (below left), Bent Odgaard (below right), and Sven Th. Andersen.</p>
+<table class="table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><img src="images/clipboard-4252361263.png" class="img-fluid" width="269" alt="Bent Aaby"></td>
+<td style="text-align: center;"><img src="images/clipboard-1443394597.png" class="img-fluid" alt="Bent Odgaard"></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="section-6" class="level2">
+<h2 class="anchored" data-anchor-id="section-6">1996</h2>
+<p>Jorge Rabassa in Ushuaia wanted a piston corer but did not want to pay for the air freight. Herb replied: “I no longer send corers by ship – but we will bring one!” Also in 1996: Herb receives his third Honorary Doctoral Degree – from University of Minnesota. The Moor Excursion went to Germany, led by T. Litt, S. Schloss, A. Hölzer, J. Kalis, M. Rösch et al.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-3803823487.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Herb in Punta Arenas, Chile</figcaption>
+</figure>
+</div>
+</section>
+<section id="section-7" class="level2">
+<h2 class="anchored" data-anchor-id="section-7">1997</h2>
+<p>Madeira, a beautiful crater lake became a reservoir :(</p>
+<table class="table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 49%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><img src="images/clipboard-1742531388.png" class="img-fluid"></td>
+<td><img src="images/clipboard-307442698.png" class="img-fluid"></td>
+</tr>
+</tbody>
+</table>
+<p>Lake of the Clouds is a lot better!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-2178471785.png" class="img-fluid figure-img" width="423"></p>
+<figcaption class="figure-caption">Coring Lake of the Clouds</figcaption>
+</figure>
+</div>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

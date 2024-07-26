@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>SedJ – myrtlemantrap</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">SedJ</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html" rel="" target="">
+ <span class="menu-text">About</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Basics</a></li><li class="breadcrumb-item"><a href="./MyrtleMantrap.html">Adventures in Minnesota 1970: From Myrtle Lake to Mantrap Lake</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Basics</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Sedimental Journeys</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./HerbBiography.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Herbert E Wright, Jr – a biography</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./CrashingLizzie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Crash Landing of ‘Lizzie’</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./LRCHistory.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Historical Notes on the Limnological Research Center</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Kurdistan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Travels in Kurdistan</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./EuPalaeoPioneers.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">European palaeoecological pioneers in Minnesota 1958–1968</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./CoringExpedition.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">A Coring Expedition</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./MemorableMoments.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Herb Wright memorable events 1961-2015</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./RedHairHEW.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">When Herb Wright had red hair: the fossil pollen years</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./MyrtleMantrap.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Adventures in Minnesota 1970: From Myrtle Lake to Mantrap Lake</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./HEWMemories.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HEW Memories</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./COHMAP.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Herb Wright and COHMAP: 1974-1994</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./BearRat.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Bear and the Rat</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Bermuda-Florida.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Adventures on Bermuda and in Florida with Herb Wright and Bill Watts</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./HerbGallery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Herb Wright - A Picture Gallery</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./IceManWengen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Ice Man of Wengen</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./LRC-reunion2013.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">LRC Reunion 2013</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./WrightHE_Publications.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Publications of Herbert E Wright</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#adventures-in-minnesota-1970-from-myrtle-lake-to-mantrap-lake" id="toc-adventures-in-minnesota-1970-from-myrtle-lake-to-mantrap-lake" class="nav-link active" data-scroll-target="#adventures-in-minnesota-1970-from-myrtle-lake-to-mantrap-lake">Adventures in Minnesota 1970: From Myrtle Lake to Mantrap Lake</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+<section id="adventures-in-minnesota-1970-from-myrtle-lake-to-mantrap-lake" class="level1">
+<h1>Adventures in Minnesota 1970: From Myrtle Lake to Mantrap Lake</h1>
+<p><em>Hilary Birks</em></p>
+<p>Together with John Birks, I spent a post-doctoral year at the LRC with Herb Wright. It was one of the most enjoyable years of my life. My primary aim was to study the modern distribution of seeds and fruits within lakes in order to facilitate the interpretation of fossil data. So I set to and learned macrofossil analysis using the excellent reference collection amassed by Bob Bright, Bill Watts, and others.</p>
+<p>We arrived in January 1970 at -17F (-22C) and were shocked as we got off the plane and our noses froze. The next morning, we set off for Pillsbury Hall. It was a beautiful sunny day. But we were completely fooled by the temperature and the wind chill. A few yards beyond the motel, we turned back and found a lot more warm clothes! Bill had advised us not to go in September as the winter is very long and cold. It was good advice. However, before I could do any fieldwork on my project, I had to wait until summer. Herb had an EPA grant to study the pollution of Sallie Lake near Detroit Lakes City and I became part of this project. So Herb, Mark Mantovani, and I set off in Herb’s field-car, the ‘yellow peril’ to obtain a short core from St Clair Lake upstream in the same catchment, which received direct inflow from the city. It is a shallow lake and acts as a filter before the water reaches Sallie Lake. It was cold fine weather, but with a significant wind chill. We reached the lake, unloaded, and took a short core of the sediments from the middle of the lake from the ice. Herb looked round at me and said quietly, “Your nose has turned white. Rub it”. Likewise, my ears experienced frostnip. They have been sensitive to cold winds ever since. For some reason, probably due to the lack of a functioning gas gauge, we ran out of gas several times. In the end, the car was running on snowmobile fuel, which I don’t suppose did it much good - but it was probably insensitive to such things at its age.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/MyrtleLake-02.jpg" class="img-fluid figure-img" alt="A round blue lake surrounded by green forest"></p>
+<figcaption class="figure-caption">Aerial view of Myrtle Lake surrounded by swamp spruce forest</figcaption>
+</figure>
+</div>
+<p>I had never been so cold before. But worse was to come. Roel Janssen had been analysing surface pollen samples within the Red Lake Peatland, which included Myrtle Lake, in northeast Minnesota. He wanted Herb to get a core from the lake for him so that he could make a regional pollen diagram and use his surface samples to interpret it in terms of past vegetation. Herb pressganged John and I to go coring with him together with Rex Wright and Bud Heinselman. Myrtle Lake is surrounded by Picea mariana peatland forest. At the start of the trail to the lake, we all confidently set off with a snow-mobile, one snow-shoe (!), basic food, tent, coring equipment, etc. The air-temperature was +37F (2.5C) and the snow was wet and slushy and very hard to walk through. We set up camp on a duck-hunters wooden platform. Unfortunately, the edge of the tent did not quite reach the ground but we managed. Bud had seen the weather forecast and knew a cold front was approaching straight from the Arctic. Indeed, we could feel it getting colder. Bud got us all collecting as much wood as possible while it was still light to keep a good fire going. After a chilly supper, we tried to sleep. Herb had kindly given me his Antarctic sleeping bag, but I was still frozen. I made the big mistake of leaving my boots outside the sleeping bag and had a minor drama during the night when I had to get out. As the temperature plunged to -340F (-370C), we all tried to sleep. But my teeth kept involuntarily chattering and helped to keep everyone awake. All except Herb, who snored quietly in his corner of the tent. In the morning his beard was sealed with icicles, so he was quieter than normal.</p>
+<table class="table">
+<colgroup>
+<col style="width: 52%">
+<col style="width: 47%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><img src="images/FrozenBeardHerbWright-01.png" class="img-fluid" width="240"></td>
+<td style="text-align: center;"><img src="images/MyrtleLake-fire-01.jpg" class="img-fluid" width="258"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Herb with his frozen beard</td>
+<td style="text-align: center;">Frozen breakfast</td>
+</tr>
+</tbody>
+</table>
+<p>Breakfast was minimal, as everything was frozen solid; bananas like bricks, grapefruit like cannonballs. We managed to thaw out some cereal bars over the fire. We had come to core, so we gathered up the equipment and set off on to the lake-ice. John lent Herb his red jumper as he was ill-equipped. Out of the shelter of the forest, the wind was bitterly cold. We managed to make a hole in the ice and put the corer down. No problem, until we pulled it up again. The water on it froze instantly, making the rods hard to hold and disconnect, and the square rod impossible to turn. Disheartened, we returned to shore. Herb had the idea that we could core through the peat forest. But the ground was frozen and impossible to penetrate. Herb’s next idea was to core through the fire. Good thinking; the fire would have melted the frozen ground. But this did not work either, because naturally the ground was full of tree roots. And the smoke from the fire left us coughing and spluttering.</p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="images/MyrtleLake_fire-coring.jpg" class="img-fluid figure-img" alt="Three people pushing a metal core through a fire on a frozen landscape" width="298"></p>
+<figcaption class="figure-caption">Coring through the fire</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/MyrtleLake_snowmobile-problem-01.jpg" class="img-fluid figure-img" alt="A snowmobile on snowy ground in a forest"></p>
+<figcaption class="figure-caption">Preparing to light a fire under the snowmobile so it would start</figcaption>
+</figure>
+</div>
+<p>By this time, it was late in the day, so retreat was inevitable. It should be easier to walk out on the now frozen snow. However, the snowmobile would not start; it had frozen along with everything else. Ever resourceful, Bud raised it on some coring rods and lit a small fire under the engine. This did the trick, and we were away. We reached the road where the yellow peril was parked. Needless to say, it was frozen solid too and would not start. We were preparing to light a fire under its engine, when fortunately a local man drove past. He kindly drove off and returned with some jump leads that allowed us to start the car. We were eternally grateful, as were not looking forward to another night of camping.</p>
+<p>On the way back to the Twin Cities, Bud, always the source of good ideas, suggested we might stop in Ely and get an evening meal - we had hardly eaten for the last 28 hours. As we entered a rundown cafe bar, a drunken Minnesotan looked at this dishevelled bunch of people with beards, long hair, and dirty clothes and hurled his beer at us and shouted “bloody Californian hippies!” We finally got back to St Paul early next morning without any core at all. Herb later admitted that this was a new experience for him to return without a core. The name ‘Janssen’ was barely mentioned for a few weeks as we thought of him sitting in his warm office while we nearly froze to death in our attempts to get him some Myrtle Lake mud! I doubt we would have even survived without Bud and his woodsmanship.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/WolfCreek_1970_HEW-HJBB-01.jpg" class="img-fluid figure-img" alt="Two men either side of a large tripod"></p>
+<figcaption class="figure-caption">Coring Wolkf Creek</figcaption>
+</figure>
+</div>
+<p>John’s task in Minnesota was to investigate the floral and vegetational development on recently deglaciated land during the late-glacial period. After perusal of the maps and Herb’s great knowledge of the glacial terrain, he chose a site called Wolf Creek, an infilled inter-drumlin palaeolake. Herb drove us and Bob Bailey in the yellow peril, and it was cool (on the feet) to see the snowy road through the floor of the car. Herb had not brought the coring frame, so we erected a tripod of coring rods tied together with yellow rope. This eventually became a bipod as we needed the rod! Herb used his large-diameter square rod piston sampler, and we extruded each section by pushing against the tyre of the car. Mission successful!</p>
+<p>John wanted a second site, so Herb suggested Kylen Lake in the Toimi drumlin field which should have old sediments. By now, winter was coming to an end, so we three hurried out to Kylen Lake. Getting on to the lake ice was easy. Coring went moderately well, and we retrieved a good core. But it had taken longer than expected, and darkness fell before we were quite finished. Finally we trudged back to the shore, only to find that a moat had melted during the day. We did not fancy spending the night on Kylen Lake waiting for it to freeze again, so we got rather wet reaching dry land with ungainly splashing leaps and a toboggan ‘bridge’.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/KylenLake_1970_pole-dancing.jpg" class="img-fluid figure-img" alt="Two men pole dancing on a frozen lake" width="406"></p>
+<figcaption class="figure-caption">Coring Kylen Lake</figcaption>
+</figure>
+</div>
+<p>Spring suddenly arrived in April, the snow melted, and flowers opened. We tried to follow the development of spring northwards, after a good start on Alice Prairie and Kasota Prairie, with millions of stunning pasque flowers. The progression of spring was very rapid, but by driving further and further north each weekend, we did manage to see the forest floor carpeted with <em>Trillium grandiflorum</em> and other beautiful plants. We made several more plant hunts during the summer, especially with Ed.</p>
+<table class="table">
+<colgroup>
+<col style="width: 60%">
+<col style="width: 39%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><img src="images/Kasota_prairie.jpg" class="img-fluid" width="1020" alt="Kasota Prairie with a carpet of Anemone patens in April"><br>
+Kasota Prairie</td>
+<td><img src="images/Anemone_patens.jpg" class="img-fluid" width="247" alt="Anemone patens"><br>
+<em>Anemone patens</em></td>
+</tr>
+<tr class="even">
+<td><img src="images/Mamillaria_vivipara.jpg" class="img-fluid" alt="Mamillaria vivipara - do not kneel on this!"><br>
+<em>Mamillaria vivipara</em> - do not kneel on this!</td>
+<td><img src="images/Sheperdia_argentea_admirers.jpg" class="img-fluid" width="202"><br>
+Studying <em>Shepherdia argentea</em> in N Dakota; Herb, John, Roel, Ed</td>
+</tr>
+</tbody>
+</table>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/CushingFamily.jpg" class="img-fluid figure-img" alt="Seven people having a picnic on a grassy field with some trees"></p>
+<figcaption class="figure-caption">With Ed and Caroline Cushing and family at Cedar Creek in May</figcaption>
+</figure>
+</div>
+<table class="table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 28%">
+<col style="width: 22%">
+<col style="width: 21%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><img src="images/Epigaea_repens.jpg" class="img-fluid" width="126"><br>
+<em>Epigaea repens</em></td>
+<td><img src="images/Lilium_michiganense.jpg" class="img-fluid" width="114"><br>
+<em>Lilium michiganens</em></td>
+<td><img src="images/Cypripedium_calceolus.jpg" class="img-fluid"><br>
+<em>Cypripedium calceolus</em></td>
+<td><img src="images/Uvularia_grandiflora.jpg" class="img-fluid"><br>
+<em>Uvularia grandiflora</em></td>
+</tr>
+</tbody>
+</table>
+<p>As spring turned to summer, it was time to start taking surface mud samples from lakes in the three main biomes present in Minnesota; prairie, deciduous forest, and coniferous-deciduous forest (boreal forest). I had considered investigating the lakes’ flora using SCUBA diving, and qualified on a course in a local swimming pool. I made one dive in Lake Itasca accompanied by Mel Whiteside. It was fantastic to see graceful forests of giant <em>Ceratophyllum demersum</em>. However, my plan to dive to my sites was scuppered, because one needed a diving buddy, and John could not even swim. My approach was to describe the flora and vegetation of the lakes and their marginal swamps, and then to take surface mud samples in transects from shallow to deep water in the different vegetation zones with an Eckman dredge. I described the aquatic vegetation from five grab samples taken around my boat and visual assessment where possible.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/WoodworthPond_1970.jpg" class="img-fluid figure-img" alt="A woman in a small yellow dinghy on a lake surrounded by reeds"></p>
+<figcaption class="figure-caption">Woodworth Prairie Pond, N Dakota</figcaption>
+</figure>
+</div>
+<p>At most of the 32 lakes I sampled I was accompanied by John. When Roel Janssen visited, we sampled some lakes, including an attempt at Lake Sylvia to get surface samples for Roel. We had to cross a large <em>Typha</em> marsh with willow bushes to reach the open water. We gradually sank below boot height. Roel thought that if we used a toboggan to distribute our weight, we might get there. We got further, but then the toboggan sank, us with it, and we had to give up.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/LakeSylvia_1970_RJanssen.jpg" class="img-fluid figure-img" alt="A man standing by an upturned toboggan in a reedy swamp" width="348"></p>
+<figcaption class="figure-caption">Roel Janssen and the toboggan</figcaption>
+</figure>
+</div>
+<p>To sample the lakes in NE Minnesota in the coniferous forest, we spent a pleasant time with Bob and Ann Carlson in their cabin and paddled around the beautiful lakes in their canoe. We found <em>Xyris montana</em>, a dainty yellow sisyrinchium flower, beside one lake, which was new to the flora of Minnesota. It has since been discovered in several localities.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/WampusLake_1970.jpg" class="img-fluid figure-img" alt="A woman in a yellow rubber dinghy on a lake surrounded by forest"></p>
+<figcaption class="figure-caption">Wampus Lake in NE Minnesota</figcaption>
+</figure>
+</div>
+<p>I made one sampling expedition on my own to central Minnesota. After sampling a couple of lakes, I arrived at Mantrap Lake. There was a large floating sedge-swamp around the shore, which I struggled over using the boat to stop me sinking. Out on the lake, I was about to start sampling, when the floor of Herb’s inflatable yellow dinghy (called a dingy by Roel Janssen) started to come away from the rim, letting water in. I paddled as fast as possible to the nearest shore, which happened to be covered in a bramble patch, and decided that the lake was well named. Herb’s dinghy was the sort used for playing on beaches. It had no rowlocks and was quite hard to paddle. Ed Cushing said that I should have trashed it ages ago! So I was glad when I could purchase a larger, more sturdy (still yellow) dinghy with rowlocks. I believe Bill and Herb used it later in Florida. I found a lot of mollusc shells in my samples so I got help identifying these from Bob Bright down in the Museum. I never published all the data from the project, including the molluscs, but synthesized the main points in a paper in 1973. Perhaps that bottom drawer should be investigated once more and the mollies resurrected.</p>
+<p>The pollution project at Detroit Lakes needed two more sites; the target problem lake, Sallie Lake, and a ‘control’ unpolluted lake. For the latter, we chose Elk Lake which Donna Stark had been studying previously with diatoms. We needed a lot of material at fine resolution for a multi-proxy study using pollen, macrofossils, diatoms, and cladocera. So Herb devised a 20cm diameter plastic tube corer of 1m length. It was operated by Mel Whiteside diving, placing the core tube, and when it was pulled up, capping the bottom so that the sediment would not fall out. It worked splendidly and we obtained samples from both Sallie and Elk Lakes. Later, I went to Elk Lake by myself to record the vegetation. On the way out along a muddy track, my car got stuck and I was lucky to be able to reverse and just make it out over the mud.</p>
+<p>We met many wonderful people in Minneapolis. Don Lawrence allowed us to be guests on his student field trips so we saw some interesting places and vegetation. He invited us to Thanksgiving lunch at his cabin. It was a convivial occasion with lots of roast turkey and pumpkin pie. Ed and Caroline Cushing had also invited us to dinner that evening - more roast turkey and pumpkin pie! We were quite naive about Thanksgiving dinners, so we had to eat far too much delicious food that day. Many other folk were also extremely generous and hospitable to us.</p>
+<p>We were sad to leave Minneapolis, the LRC, and Herb and Rhea in December (before winter got too bad). Besides all the stimulating science during our year at the LRC, we also made many good friends. Rhea wrote me many of her characteristic type-written letters after we got home, and we were glad to welcome her to Cambridge on two visits. Herb also visited us on several occasions in Cambridge and Bergen. But I have never been back to Minneapolis.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
