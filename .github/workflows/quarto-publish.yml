@@ -23,11 +23,7 @@ jobs:
           target: gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          # To install LaTeX to build PDF book 
-          tinytex: true 
-          # uncomment below and fill to pin a version
-          # version: SPECIFIC-QUARTO-VERSION-HERE
+        
       
       # add software dependencies here and any libraries
       
@@ -61,14 +57,7 @@ jobs:
       #     CONNECT_SERVER: enter-the-server-url-here
       #     CONNECT_API_KEY: ${{ secrets.CONNECT_API_KEY }} 
 
-      # NOTE: If Publishing to GitHub Pages, set the permissions correctly (see top of this yaml)
-       - name: Publish to GitHub Pages (and render) 
-         uses: quarto-dev/quarto-actions/publish@v2
-         with:
-           target: gh-pages
-         env:
-           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # this secret is always available for github actions
-
+    
       # - name: Publish to confluence
       #   uses: quarto-dev/quarto-actions/publish@v2
       #   with:
