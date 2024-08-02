@@ -30,6 +30,7 @@ website:
           - COHMAP.qmd
           - BearRat.qmd
           - Bermuda-Florida.qmd
+          - Travelling-with-Herb.qmd
           - HerbGallery.qmd
           - IceManWengen.qmd
           - HEWContributions.qmd
@@ -37,7 +38,6 @@ website:
           - LRC-reunion2013.qmd
           - HEWCareer.qmd
           - HerbAl.qmd
-          - Travelling-with-Herb.qmd
           - EatWright.qmd
           - WrightHE_Publications.qmd
       
