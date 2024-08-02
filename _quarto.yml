@@ -12,11 +12,11 @@ website:
     style: "docked"
     search: true
     contents:
+      - index.qmd
       - section: "Chapters"
         contents:
-          - index.qmd
           - HerbBiography.qmd
-          - HEWThoughts-qmd
+          - HEWThoughts.qmd
           - CrashingLizzie.qmd
           - LRCHistory.qmd
           - Kurdistan.qmd
