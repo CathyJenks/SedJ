@@ -2,8 +2,8 @@
 
 by *John Birks*
 
-A detailed, [illus](Klutlan/KlutlanGlacier_HJBB.pdf)[trated account](Klutlan/KlutlanGalcier_HJBB.pdf) of the 1971 expedition led by Herb Wright.
+A detailed, [illus](Klutlan/KlutlanGlacier_HJBB.pdf)[trated account](Klutlan/KlutlanGlacier_HJBB.pdf){target="_blank"} of the 1971 expedition led by Herb Wright.
 
-[Appendix 1](Klutlan/Klutlan_aerial-photos_App1.pdf) - composite of aerial photos of the glacier
+[Appendix 1](Klutlan/Klutlan_aerial-photos_App1.pdf){target="_blank"} - composite of aerial photos of the glacier
 
-[Appendix 2](Klutlan/Yukon_releves_App2.pdf) - table of species identified presented in a field seminar
+[Appendix 2](Klutlan/Yukon_releves_App2.pdf){target="_blank"} - table of species identified presented in a field seminar
