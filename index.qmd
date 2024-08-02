@@ -31,9 +31,9 @@ List of [subsequent missions](https://95thbgdb.com/person/7315) flown by Herb
 
 [Adventures in Minnesota 1970: Myrtle Lake to Mantrap Lake](MyrtleMantrap.qmd) - Hilary Birks
 
-The Klutlan Glacier Expedition 1971 - John Birks\
-Appendix 1 - Klutlan aerial photo\
-Appendix 2 - Field seminar table
+[The Klutlan Glacier Expedition 1971](https://github.com/CathyJenks/SedJ/blob/main/Klutlan/KlutlanGlacier_HJBB.pdf) - an account of the expedition to survey the Klutlan Glacier area by John Birks\
+[Appendix 1](https://github.com/CathyJenks/SedJ/blob/main/Klutlan/Klutlan_aerial-photos_App1.pdf) - Klutlan aerial photo\
+[Appendix 2](https://github.com/CathyJenks/SedJ/blob/main/Klutlan/Yukon_releves_App2.pdf) - Field seminar table
 
 [Memories of HEWright](HEWMemories.qmd) - unique occurrences with Herb by Bob Baker
 
