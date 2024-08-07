@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>SedimentalJourneys – herbnotgone</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">SedimentalJourneys</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html" rel="" target="">
+ <span class="menu-text">About</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./HerbBiography.html">Chapters</a></li><li class="breadcrumb-item"><a href="./HerbNotGone.html">Where Herb Has Not Yet Gone Before</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Sedimental Journeys</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Chapters</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./HerbBiography.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Herbert E Wright, Jr – a biography</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./HEWThoughts.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Thoughts and achievements</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./CrashingLizzie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Crash Landing of ‘Lizzie’</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./LRCHistory.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Historical Notes on the Limnological Research Center</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Kurdistan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Travels in Kurdistan</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./EuPalaeoPioneers.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">European palaeoecological pioneers in Minnesota 1958–1968</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./CoringExpedition.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">A Coring Expedition</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./MemorableMoments.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Herb Wright memorable events 1961-2015</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./RedHairHEW.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">When Herb Wright had red hair: the fossil pollen years</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./MyrtleMantrap.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Adventures in Minnesota 1970: From Myrtle Lake to Mantrap Lake</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Klutlan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Klutlan Glacier Expedition</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./HEWMemories.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HEW Memories</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./COHMAP.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Herb Wright and COHMAP: 1974-1994</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./BearRat.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Bear and the Rat</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Bermuda-Florida.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Adventures on Bermuda and in Florida with Herb Wright and Bill Watts</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Travelling-with-Herb.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Travelling with Herb - a picture gallery</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./HerbGallery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Herb Wright - A Picture Gallery</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./IceManWengen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Ice Man of Wengen</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./HEWContributions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Contributions of Herbert E. Wright Jr.&nbsp;to Science and Technology</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./HerbNotGone.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Where Herb Has Not Yet Gone Before</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./LRC-reunion2013.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">LRC Reunion 2013</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./HEWCareer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">A Brief Summary of the Career of H. E. Wright, Jr.</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./HerbAl.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Herb-Al</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./EatWright.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Eat Wright</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./WrightHE_Publications.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Publications of Herbert E Wright</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#where-herb-has-not-yet-gone-before" id="toc-where-herb-has-not-yet-gone-before" class="nav-link active" data-scroll-target="#where-herb-has-not-yet-gone-before">Where Herb Has Not Yet Gone Before</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+<section id="where-herb-has-not-yet-gone-before" class="level1">
+<h1>Where Herb Has Not Yet Gone Before</h1>
+<p>by <em>Jim Almendinger</em></p>
+<p>In honor of Herb’s 90th birthday, which was celebrated in Sils, Switzerland, 2007</p>
+<p>In ages long gone, when I started grad school,<br>
+Professors gave simple advice:<br>
+Choose your sites wisely, for only a fool<br>
+Would choose to core a lake twice.</p>
+<p>Seek out new sandplains and tills of ablation<sup>1</sup> –<br>
+There you’ll find lakes you should core.<br>
+Go to new lands and civilizations<br>
+Where no one has yet gone before.</p>
+<p>So I drove a ways north and a little ways west<br>
+And sampled a pothole or two.<br>
+With thousands of lakes there, the chances, at best,<br>
+That someone had cored these, were few.</p>
+<p>Yet when I came back, I was given a fright:<br>
+My advisor had eyed me with scorn.<br>
+“Those lake have been published by our friend Herb Wright,<br>
+“Who cored them before you were born!”</p>
+<p>OK, not a problem, I pushed on ahead<br>
+And chose some lakes out a bit further.<br>
+To prairies I drove, and faster I sped<br>
+To sample the few lakes that were there.</p>
+<p>Again I returned, all happy and cheery<br>
+My advisor said, “Sorry to trouble you!!<br>
+“Who first cored those lakes? Have you not a theory?<br>
+“That’s right – it was old HEW!”</p>
+<p>Again I resolved to continue my toil,<br>
+In the Canadian Maritimes, where<br>
+After coring, I noticed a scrap of tin foil,<br>
+And I knew that Herb Wright had been there!</p>
+<p>In anger I pressed on and went further north;<br>
+The bush pilots thought I was daft.<br>
+But at each site Herb’s residue clearly lay forth,<br>
+Like scraps from an old rubber raft.</p>
+<p>I went to the west, far into Alaska<br>
+Where an old timer said with delight,<br>
+“If you’re coring lakes, I think I should ask ya –<br>
+“How is my old friend, Herb Wright?”</p>
+<p>I went to the south, to far Patagonia<br>
+To regions not given a name<br>
+Then to shy cloistered corners in old Catalonia,<br>
+But the answer was always the same.</p>
+<p>To Egypt, to Sweden, to tiny Swaziland,<br>
+To the southernmost tip of Tasmania,<br>
+To Greenland, to Iceland, and then to New Zealand –<br>
+I madly continued my mania!</p>
+<p>I traveled by camel to outer Mongolia,<br>
+To plains that the wind had laid bare.<br>
+To find once again, just like I have told ya,<br>
+That Herb had been already there.</p>
+<p>In Persia, Herb cored with one Cyrus the Great<br>
+In Baghdad, with this or that sultan<br>
+For a thousand and one nights, he labored ’til late<br>
+Writing a paper or bulletin.</p>
+<p>He cored in Arabian wadis<sup>2</sup> with Lawrence;<br>
+He cored in the Sudanese sands.<br>
+He cored with da Vinci some wetlands near Florence<br>
+And on his pants wiped off his hands.</p>
+<p>He traveled with Captain James Cook to Hawaii,<br>
+And ate a big sandwich<sup>3</sup> for lunch.<br>
+And then with his portable coring supply, he<br>
+Cored a salt marsh on a hunch.</p>
+<p>He jumped ship in Tahiti<sup>4</sup> and swam to the shore<br>
+Where the women don’t wear any tops.<br>
+He cored crater lakes, peat bogs, lagoons, and still more – And toasted each one with a schnapps</p>
+<p>To the Llanos<sup>5</sup> he traveled with Bonpland and Humboldt<br>
+To wade in the riverine muck,<br>
+And ended up wrestling with eels full of volts<sup>6</sup><br>
+While getting his sampler unstuck.</p>
+<p>He met up with Darwin<sup>7</sup> to core a few lakes,<br>
+While Darwin was stumped by his finches.<br>
+When questioned by Herb, Charles saw his mistakes,<br>
+And in gratitude manned the core winches.</p>
+<p>Herb’s rod, it was square! His stainless head shone!<br>
+His coring tube’s wall – it was lean!<br>
+Zirconium magnesium made up his bones,<br>
+With aluminum couplings between<sup>8</sup>.</p>
+<p><em>So…</em></p>
+<p>I’d traveled the globe, neither heeded nor aided,<br>
+To seek out a lake of my own,<br>
+But only to find, a world perforated<br>
+Like Swiss cheese by Herb’s Livingstone<sup>9</sup>.</p>
+<p>I returned in my sorrow, and full of despair.<br>
+What could I do possibly more?<br>
+When a voice from the shadows – the Devil, I swear!<br>
+Said, “I have a lake you can core…”</p>
+<p>“It has a stratigraphy nine layers deep<sup>10</sup>,<br>
+“Core shallow or deep as you choose.<br>
+“But to get an age model, the dates won’t come cheap,<br>
+“From mud of salacious<sup>11</sup> dark ooze.”</p>
+<p>“But here is the catch, which some may think nice,<br>
+“To sample continuous sediment.<br>
+“I propose that you wait for a platform of ice,<br>
+“And core there without an impediment.”</p>
+<p>So I’m waiting in Hades; I’m tortured, disturbed,<br>
+For sediment I’ve suffered woe for,<br>
+To finally core a lake not cored by Herb,<br>
+When finally, Hell freezes over!</p>
+<p><strong><em>NOTES:</em></strong></p>
+<p><sup>1</sup>Ablation is the melting of glacial ice.</p>
+<p><sup>2</sup>A wadi is a gully, typically dry except in the rainy season, but where oases would be found.</p>
+<p><sup>3</sup>The Hawaiian Islands were once known, of course, as the Sandwich Islands. Cook was the first European to discover the islands in 1778, and died there in 1779 during a conflict with the natives.</p>
+<p><sup>4</sup>If Herb were sailing with Captain Bligh on the HMS <em>Bounty</em>, this would have been 1789.</p>
+<p><sup>5</sup>The Llanos are the grassy plains of Venezuela and Columbia along the Orinoco River, visited by Alexander von Humbolt and Aimé Bonpland in 1800.</p>
+<p><sup>6</sup>Humboldt confirmed the existence of electric eels, which live in the muddy pools of the Orinoco.</p>
+<p><sup>7</sup>Darwin was in the Galapagos Islands in 1835; so, too, apparently was Herb.</p>
+<p><sup>8</sup>Herb re-designed the lake-sediment sampler originally designed by Dan Livingstone, introducing a square inner rod, a stainless steel sampler head, a thin (“lean”) walled stainless steel coring tube, and zirconium-magnesium coring rods connected by anodized aluminum couplings.</p>
+<p><sup>9</sup>The modified Livingstone sampler, as described above.</p>
+<p><sup>10</sup>The nine circles of Hell, as described in Dante’s <em>Inferno</em>.</p>
+<p><sup>11</sup>In the oceans, the ooze is siliceous; in Hell, salacious.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
