@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.5.56">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>SedimentalJourneys – eupalaeopioneers</title>
+<title>eupalaeopioneers – SedimentalJourneys</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -45,7 +45,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -54,6 +60,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -68,42 +75,42 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">SedimentalJourneys</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
- <span class="menu-text">Home</span></a>
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
- <span class="menu-text">About</span></a>
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools ms-auto">
-</div>
           </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./HerbBiography.html">Chapters</a></li><li class="breadcrumb-item"><a href="./EuPalaeoPioneers.html">European palaeoecological pioneers in Minnesota 1958–1968</a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
-      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./HerbBiography.html">Chapters</a></li><li class="breadcrumb-item"><a href="./EuPalaeoPioneers.html">European palaeoecological pioneers in Minnesota 1958–1968</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -112,7 +119,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
         <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
@@ -128,9 +135,9 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
  <span class="menu-text">Chapters</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -290,7 +297,7 @@ ul.task-list li input[type="checkbox"] {
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -310,13 +317,14 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+
 <section id="european-palaeoecological-pioneers-in-minnesota-19581968" class="level1">
 <h1>European palaeoecological pioneers in Minnesota 1958–1968</h1>
 <p>by <em>John Birks</em></p>
 <p>During his PhD studies in New Mexico in the early 1940s, Herb Wright developed a keen interest in lakes and their sediments as a potential source of information for inferring relative chronologies and vegetational, environmental, and climatic history. His initial awareness of the potential of pollen analysis in reconstructing landscape and climatic history probably came from his Harvard mentor Kirk Bryan Sr (1888–1950) who closely followed the ever-growing European literature on pollen analysis and climatic history in the 1940s. Herb’s interest was further stimulated by Edward S Deevey (1914 – 1988) with the publication of his masterly review of Pleistocene biogeography (Deevey 1949), by his own geo-archaeological research in the Near East and studies on the glacial history of Minnesota in the early 1950s, and by his visits to the leading European centres for Quaternary geology and for pollen analysis. Herb met many of the leaders in European pollen analysis in the 1950s including Johannes (Johs) Iversen (1904–1972) and Svend Th Andersen (1926–2009) in Copenhagen, Tage Nilsson (1905–1986) in Lund, Gunnar Erdtman (1897–1973) in Stockholm, Knut Fægri (1909–2001) in Bergen, Max Welten (1904–1984) in Bern, Franz Firbas (1902–1964) in Göttingen, and Harry Godwin (1901–1985) in Cambridge.</p>
 <p>Thanks to a grant from the Hill Family Foundation in St Paul in 1956, Herb was able to establish in 1958 a pollen laboratory within the then Department of Geology, University of Minnesota. As Herb admitted (Wright, unpublished ‘Wengen’) “Not being an avid microscopist, I called upon experienced European specialists to establish a pollen laboratory at Minnesota and to help in advising students”. Herb explained “In order to introduce new ideas and well-trained specialities to the activities of the Limnological Research Center (LRC), policy of inviting post-doctoral research fellows and research associates for 1–2 years has been followed. Many of these persons come from active laboratories in foreign countries. Several have returned for subsequent visits and have maintained joint research projects” (Wright 1969). This account is about the thirteen European specialists who worked for a year or more in the laboratory at Herb’s invitation between 1958 and 1968 – the palaeoecological ‘pioneers’.</p>
 <p>The first members of the embryonic pollen laboratory were Herb and two graduate students Edward (‘Ed’) J Cushing who joined in 1956 and John (‘Jock’) H McAndrews who joined in 1957, along with one Leitz microscope and a minute preparation laboratory.</p>
-<table class="table">
+<table class="caption-top table">
 <colgroup>
 <col style="width: 34%">
 <col style="width: 28%">
@@ -336,7 +344,7 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 <p>Herb sought advice from Johs Iversen, who was on leave at Yale University in 1956, about which European palynologist to invite to Minnesota and help develop the pollen lab and train and advise talented graduate students such as Ed Cushing and Jock McAndrews. Iversen recommended <strong>Magnus Fries</strong> (1917–1987) from Uppsala, as an ideal teacher, a meticulous pollen analyst, hard-working, and a kind and very likable person. Magnus came from a distinguished lineage of Swedish botanists including the mycologist Elias Fries, the lichenologist Thore M. Fries, and the taxonomist Robert Fries (Santesson 1987). Magnus was the leading Quaternary pollen analyst in Sweden in the 1950s. He defended his doctoral thesis in 1951 (Fries 1951) on the vegetational history of Västergötland in southern Sweden. He published several important papers about Swedish vegetational history (e.g.&nbsp;Fries 1962a, 1965, 1980). Whilst in Minnesota in 1958, he helped to develop the pollen lab (including getting a second Leitz microscope), to build up its modern pollen reference collections, and to teach and advise Ed Cushing and Jock McAndrews, as well as three MSc students – Harvey Patten, Thomas (Tom) C. Winter (1936–2010), and Anne Knight – and two PhD students – Louis (Lou) J. Maher and Robert (Bob) C. Bright (1928–1995).</p>
-<table class="table">
+<table class="caption-top table">
 <colgroup>
 <col style="width: 33%">
 <col style="width: 33%">
@@ -359,7 +367,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Magnus Fries was, in many ways, the ‘father’ of pollen analysis in Minnesota as he did so much to develop the pollen lab, to train and advise many talented graduate students in the field and the lab, and to explore the vegetational history of north-east Minnesota. He suggested that Ed Cushing apply for a Fulbright Fellowship to work in what was then the Geological Survey of Denmark. Ed worked there in 1960–61 and greatly benefitted from daily contact with Johs Iversen and Svend Andersen (Cushing 1963). Ed imported into the pollen lab much of what he had learnt whilst in Copenhagen and set the very high laboratory and analytical procedures and intellectual rigour that quickly became the norm in the Minnesota pollen lab.</p>
 <p>Magnus was followed by <strong>Saskia (‘Kiek’) Jelgersma</strong> (1929–2012), a Quaternary geologist from The Netherlands. Kiek’s primary research for her doctoral thesis in 1961 was on Holocene sea-level changes in The Netherlands. This work involved pollen analysis, stratigraphy, archaeology, and radiocarbon dating. After her year (1959–60) in Minnesota she was appointed Senior Geologist in the Geological Survey of The Netherlands in Haarlem, a post she held until her retirement in 1995. Whilst in Minnesota she helped to develop further the pollen lab, to advise graduate students, and to study late-glacial deposits at Madelia in south-central Minnesota (Jelgersma 1962) and Kotiranta Lake, north-eastern Minnesota (Wright &amp; Watts 1969).</p>
 <p>The next visiting researcher to the pollen lab was also from The Netherlands, <strong>Willem van Zeist</strong> (1924–2016) from the Biologisch-Archaeologisch Institutut, University of Groningen. Willem’s major research interests were in archaeological botany and palaeo-ethnobotany and his expertise included pollen analysis, macroscopic plant remains, and charcoal remains. Besides working in The Netherlands and in France, his major research areas were the Near East and the eastern Mediterranean. As well as helping in the pollen lab and interacting with graduate students, Willem’s main research was to study the pollen stratigraphy of cores I-13 and I-12 from Lake Zeribar in the Zagros Mountains of south-western Iran (van Zeist &amp; Wright 1963). Herb had obtained these cores in 1960 with Richard (‘Red’) Watson, Anne Bent, and Richard (‘Dick’) Wright (Wright 2008). These cores extended to about 17,000 years before present and provided the incentive for further work at Zeribar and the first hints of the importance of Late Pleistocene/early Holocene climate changes from dry and cold to moist and temperate (Wright 1966) on the origins of agriculture (Wright 1964). Herb and Willem returned to Zeribar in 1963 with Robert (‘Bob’) and Roberta (‘Bobbi’) Megard and Dick Wright. Results for the pollen, plant macrofossil, and cladoceran stratigraphies of the 1963 cores were published by van Zeist (1967), Wasylikowa (1967), and Megard (1967). In addition, 72 modern surface samples were collected along transects crossing the major vegetation belts. The pollen in these samples were analysed by Jock McAndrews whilst a post-doctoral fellow at Groningen (Wright et al.&nbsp;1967).</p>
-<table class="table">
+<table class="caption-top table">
 <colgroup>
 <col style="width: 43%">
 <col style="width: 56%">
@@ -379,7 +387,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Lake Zeribar was visited again in 1970 by Herb along with Red Watson, Dick Wright, Krystyna Wasylikowa, and Kazimierz Wasylik (the latter two has also been visitors to the pollen lab). This expedition raised 40 m of sediment that extended to 48,000 years ago and provided a very detailed pollen stratigraphy (van Zeist &amp; Bottema 1977; van Zeist 2008a, 2008b). Many palaeoecological analyses involving diatoms, macrofossils, Characeae, molluscs, ostracods, and stable-isotopes as well as pollen were done on the Zeribar cores, and all this multi-disciplinary work has been brought together by Krystyna Wasylikowa and Andrzej Witkowski in a monograph about Lake Zeribar dedicated to Herb (Wasylikowa &amp; Witkowski 2008).</p>
 <p>Finding sites suitable for pollen analysis in the Near East and the eastern Mediterranean is not easy and Willem van Zeist, Herb, and others had many field adventures together in Iran, Israel, Syria, Jordan, Turkey, and Greece searching for promising sites. Perhaps the most notable adventure was when Herb who was driving a land-rover with a wide, ready-assembled coring raft on the roof-rack tried to drive along a road in a Greek village that was narrower than the coring raft and demolished a balcony off the side of a house!</p>
 <p>The next two European visitors to the pollen lab both came in late 1961 and early 1962. <strong>William (‘Bill’)</strong> <strong>Watts</strong> (1930–2010) from Ireland came for a year in late December 1961 with his wife Gerry and their two young boys Niall and Michael (Watts 2008). <strong>C Roel Janssen</strong> (1930–2015) came with his wife Nini early in 1962 and stayed for just over two years. Both Bill and Roel contributed greatly to the laboratory and the international camaraderie that was developing in Herb’s group. They returned many times to Minnesota: Bill worked with Herb for nearly 40 years and Roel worked with Herb for over 30 years.</p>
-<table class="table">
+<table class="caption-top table">
 <colgroup>
 <col style="width: 50%">
 <col style="width: 50%">
@@ -405,13 +413,13 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/LRC lab1960s.jpg" class="img-fluid figure-img" alt="A woman and a man each looking down a microscope on the left and another woman and man looking inside a drawer on the right"></p>
-<figcaption class="figure-caption">Early days of the LRC, about 1962, with Barbara Hansen, Bob Megard, ?Anne McKnight, and Ed Cushing in Room 213 of Pillsbury Hall</figcaption>
+<figcaption>Early days of the LRC, about 1962, with Barbara Hansen, Bob Megard, ?Anne McKnight, and Ed Cushing in Room 213 of Pillsbury Hall</figcaption>
 </figure>
 </div>
 <p>By the time the next European palaeoecologist (Kerstin Griffin) came in 1963 to work with Herb, the pollen lab was now part of the Limnological Research Center (LRC). The LRC was quickly expanding its research activities into neolimnology with faculty members Joe Shapiro, Alan Brook, Bob Megard, and Eville Gorham and soon into palaeolimnology with the import of experienced European diatomists such as Maj-Britt Florin in 1964, Kazik Wasylik in 1965, and Elizabeth Haworth in 1966.</p>
 <p>As the pollen lab and its collections continued to expand, a manager was appointed in 1965. Jean Waddington from England ran the lab very efficiently and completed various projects with Herb, Ed, Platt Bradbury, and others (e.g.&nbsp;Bradbury &amp; Waddington 1973; Waddington &amp; Wright 1974). She did a MSc with Ed on the pollen stratigraphy of a lake in the Big Woods of Minnesota (Waddington 1969). She left the LRC in 1974 and her place as lab manager was taken by Linda Shane. Linda obtained her PhD from Kent State University (Shane 1976, 1987, 1989). She ran the lab excellently until 2002 when she became Manager of the LRC Lacustrine Core Laboratory (LacCore). She also edited with Ed Cushing the wide-ranging symposium volume <em>Quaternary Landscapes</em> (Shane and Cushing 1991) to honour Herb on the occasion of his formal retirement from the University of Minnesota in 1988. He did not actually retire from field work until about 2007 and from science, scientific writing and editing until about 2014.</p>
 <p><strong>Kerstin Griffin</strong> came from Oslo in 1963 and worked in the LRC from 1963 to 1968. She was the first international PhD student to work in the LRC and she was awarded her University of Minnesota PhD in 1973 based on her thesis on <em>Paleoecological aspects of Red Lake Peatland</em> (Griffin 1975, 1977). Kerstin’s work on the palaeoecology and development of the Red Lake peatland, a vast patterned fen with complex surface patterns (Wright et al.&nbsp;1992), was one of the first studies that Herb and his LRC colleagues made on the patterned peatlands of Minnesota and elsewhere in North America and Scandinavia.</p>
-<table class="table">
+<table class="caption-top table">
 <colgroup>
 <col style="width: 50%">
 <col style="width: 50%">
@@ -429,7 +437,7 @@ ul.task-list li input[type="checkbox"] {
 </table>
 <p>The next long-term visitor to the LRC was also Scandinavian – <strong>Maj-Britt Florin</strong> (1905–1993) – who worked with Herb in 1964–65. She came from Uppsala in Sweden to work on late-glacial diatom assemblages in the lowermost sediments including the basal ‘trash layer’. Maj-Britt was part of the strong Swedish tradition in the LRC that started with Magnus Fries and was continued by Svante Björck (1981–82 and later) and Ingemar Renberg (1991). The LRC was, as always, short of good microscopes and Herb in his invitation to Maj-Britt to come and work in the LRC asked her to bring her own microscope! Maj-Britt was one of the world’s leading diatomists and did important work on diatoms in relation to sea-level changes in eastern Sweden as well as detailed pollen analytical studies (Hasle &amp; Miller 1994). Maj-Britt was one of the young students on the famous 1933 Baltic Course on pollen analysis taught by Lennart von Post (Fægri 1981). At this course she met other young Scandinavian palaeoecologists who went on to be major figures in pollen analysis and palaeoecology, notably Knut Fægri and Johs Iversen. Maj-Britt’s work in Minnesota (Florin &amp; Wright 1969, Florin 1970) was on the late-glacial diatoms at Kirchner Marsh. She showed that the basal ‘trash layer’ containing wood and other terrestrial coarse plant material and diatoms of soil, moss, and shallow ponds, represented the ground-layer of a spruce forest growing on buried ice. In light of these findings as well as work by one of Herb’s geology graduates, Vern Rampton (LRC 1964–69) in the St Elias Mountains in the Yukon Territory (Rampton 1970, 1971, 1978), Herb planned a multi-disciplinary study in 1971 on the Klutlan Glacier in the Yukon to examine and study modern analogues for ice-cored areas in late-glacial Minnesota (Wright 1980).</p>
 <p>The next European visitors, <strong>Krystyna Wasylikowa</strong> and her husband <strong>Kazimierz (‘Kazik’) Wasylik</strong> (1925–2000) came from Kraków in Poland in 1964 and 1965 (Kazik). Krystyna’s expertise is in plant macrofossils whereas Kazik was a diatomist. Krystyna recalls (pers. comm. 2015) “My first meeting with Herb is still very vivid in my memory. It was in 1961 during the INQUA Congress in Warsaw. I presented a paper about an interesting site where Bølling and Allerød peats were separated by a dune sand. After the session a man came to me and said (or rather mumbled) ‘I am Professor Wright from Minnesota, would you like to come to us with your husband to work at the university?’ And so it started. Our wonderful time in Minnesota, the travel to Iran (with Dick Wright), work on the Zeribar cores, and Herb’s several travels to Poland. He was quite a personality. I think I can say that we were friends in spite of the distance and our rare meetings.” Krystyna worked on the plant macrofossils in the various cores from Lake Zeribar and Kazik worked on the diatoms (Wasylikowa 1967, 2008; Wasylikowa et al.&nbsp;2006, 2008; Wasylikowa &amp; Witkowski 2008; Witkowski et al.&nbsp;2008). She also worked on late-glacial pollen and macrofossils at Blackhoof, a late-glacial site in north-eastern Minnesota (Wasylikowa &amp; Wright 1970).</p>
-<table class="table">
+<table class="caption-top table">
 <colgroup>
 <col style="width: 48%">
 <col style="width: 51%">
@@ -446,7 +454,7 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 <p>The diatom tradition started by Maj-Britt and Kazik was continued by the next LRC visitor, <strong>Elizabeth (‘Liz’) Haworth</strong> from the Freshwater Biological Association at Ambleside in the English Lake District. Liz worked in the LRC, mainly with Bob Bright during 1966–67. Liz extended the palaeoecological study of Watts and Bright (1968) at Pickerel Lake, South Dakota that involved pollen, molluscs, and plant macrofossils. Liz made a detailed diagram stratigraphy that showed major changes in diatom composition with brackish-water diatoms occurring during the mid-Holocene period of prairie expansion and increased regional aridity (Haworth 1972).</p>
-<table class="table">
+<table class="caption-top table">
 <colgroup>
 <col style="width: 40%">
 <col style="width: 29%">
@@ -624,18 +632,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -667,11 +664,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
-  function tippyHover(el, contentFn) {
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/CathyJenks\.github\.io\/SedimentalJourneys\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -681,8 +717,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -694,7 +739,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -738,6 +906,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -763,6 +932,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -823,6 +1018,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 

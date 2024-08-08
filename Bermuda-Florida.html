@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.5.56">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>SedimentalJourneys – bermuda-florida</title>
+<title>bermuda-florida – SedimentalJourneys</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -45,7 +45,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -54,6 +60,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -68,42 +75,42 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">SedimentalJourneys</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
- <span class="menu-text">Home</span></a>
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
- <span class="menu-text">About</span></a>
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools ms-auto">
-</div>
           </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./HerbBiography.html">Chapters</a></li><li class="breadcrumb-item"><a href="./Bermuda-Florida.html">Adventures on Bermuda and in Florida with Herb Wright and Bill Watts</a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
-      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./HerbBiography.html">Chapters</a></li><li class="breadcrumb-item"><a href="./Bermuda-Florida.html">Adventures on Bermuda and in Florida with Herb Wright and Bill Watts</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -112,7 +119,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
         <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
@@ -128,9 +135,9 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
  <span class="menu-text">Chapters</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -290,7 +297,7 @@ ul.task-list li input[type="checkbox"] {
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -314,6 +321,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+
 <section id="adventures-on-bermuda-and-in-florida-with-herb-wright-and-bill-watts" class="level1">
 <h1>Adventures on Bermuda and in Florida with Herb Wright and Bill Watts</h1>
 <p>by <em>John Birks</em></p>
@@ -327,13 +335,13 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/Bermuda.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Bermuda</figcaption>
+<figcaption>Bermuda</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/Juniperus-Sabal_vegetation.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption"><em>Juniperus-Sabal</em> vegetation</figcaption>
+<figcaption><em>Juniperus-Sabal</em> vegetation</figcaption>
 </figure>
 </div>
 <p>The three of us flew from the Twin Cities to Atlanta (Georgia) with corers, rods, etc., all wrapped up as single pieces of checked-in luggage and chain hoists as hand-baggage. After landing at Hamilton, the capital of Bermuda, we loaded up a taxi with our equipment and asked to go to the Bermuda Marine Biological Station (now the <a href="http://www.bios.edu/#!/who-we-are">Bermuda Institute of Ocean Sciences</a>) where Herb had arranged ‘accommodation’ for us. When we reached the Station, Herb suggested to me as Bermuda is ‘British’, the taxi-driver will need to be paid in UK pounds and Herb looked at me to pay. The taxi-driver quickly intervened and said “No man! We do not use them things as they are worthless. We only use real money – dollars!” So Herb had to find his wallet! In fact, Bermuda is a British Overseas Territory and its currency is the Bermuda dollar that is pegged to the US dollar.</p>
@@ -342,39 +350,39 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/DevonshireMarsh.jpg" class="img-fluid figure-img" alt="Marshy land in the foreground with some houses on a hill in the background"></p>
-<figcaption class="figure-caption">Devonshire Marsh</figcaption>
+<figcaption>Devonshire Marsh</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/PembrokeMarsh.jpg" class="img-fluid figure-img" alt="A small area of open water within a large reedy area"></p>
-<figcaption class="figure-caption">Pembroke Marsh</figcaption>
+<figcaption>Pembroke Marsh</figcaption>
 </figure>
 </div>
 <p>We failed miserably at Devonshire Marsh where over 30 m of fibrous peat had been reported. Needless to say, an in-need-of-much-repair square-rod Wright corer with a blunt cutting edge and no lockable square-rod failed totally and we left the Marsh with four sediment slugs of about 20 cm length of no possible scientific value. Bill and I botanised on the Marsh and found nice plants of <em>Osmunda cennamonea, Myrica cerifera</em>, and several <em>Carex</em> and <em>Cyperus</em> species. We also tried coring the nearby Pembroke Marsh without any success at all.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/MangroveLake.jpg" class="img-fluid figure-img" alt="A small boat on a lake"></p>
-<figcaption class="figure-caption">Mangrove Lake</figcaption>
+<figcaption>Mangrove Lake</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/LoversLake.jpg" class="img-fluid figure-img" alt="A small lake in a scrub landscape"></p>
-<figcaption class="figure-caption">Lover’s Lake</figcaption>
+<figcaption>Lover’s Lake</figcaption>
 </figure>
 </div>
 <p>Next day we turned our attention to the few natural lakes on Bermuda, in particular Mangrove Lake. This is a small (1 ha) and shallow lake with a belt of <em>Rhizophora</em> red mangroves at the margins. It is surrounded in part by a golf course on dune-like hills and whilst we were coring, we heard golf-balls fall into the lake! It is separated from the sea by a ridge though which seawater and even tidal movements can penetrate (Watts &amp; Hansen 1986). We raised over 15 m of sediment from under 160 cm of water. The sediments were like ‘rubber-mud’ wit sections of green, brown, or black banded layers, often with shells. The basal 3 m were brown fibrous hardened peat. The coring was surprisingly uneventful and the core extended to nearly 10,000 years ago. Barbara Hansen’s (Watts &amp; Hansen 1986) pollen analyses show that the Holocene vegetation was dominated by <em>Juniperus</em> and <em>Sabal</em>. Pollen of plants that occur today in tropical southern Florida (e.g.&nbsp;<em>Acrostichum</em> fern) an south into the West Indies were present in the early Holocene. The mangroves <em>Rhizophora</em> and <em>Conocarpus</em> arrived on Bermuda in the late Holocene.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/BillWatts_MangroveLake-coretop.jpg" class="img-fluid figure-img" alt="A man holding a lake sediment core"></p>
-<figcaption class="figure-caption">Bill Watts and the Mangrove Lake top core</figcaption>
+<figcaption>Bill Watts and the Mangrove Lake top core</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/HerbWright_MangroveLake.jpg" class="img-fluid figure-img" alt="A man kneeling by a sediment core on the shore of a lake"></p>
-<figcaption class="figure-caption">Herb Wright at Mangrove Lake</figcaption>
+<figcaption>Herb Wright at Mangrove Lake</figcaption>
 </figure>
 </div>
 <p>Lover’s Lake was difficult to reach because of its dense mangrove margins. Its sediments of about 1 m (mainly volcanic tephra) under 1 m of water were not worth the effort of getting them!</p>
@@ -387,13 +395,13 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/Lake Alice.jpg" class="img-fluid figure-img" alt="A view over a lake from the shore near a large tree"></p>
-<figcaption class="figure-caption">Lake Alice</figcaption>
+<figcaption>Lake Alice</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/LakeAlice_aligators.jpg" class="img-fluid figure-img" alt="A small island in a lake with an alligator on it"></p>
-<figcaption class="figure-caption">Lake Alice alligators</figcaption>
+<figcaption>Lake Alice alligators</figcaption>
 </figure>
 </div>
 <p>As it was getting dark, we rolled out our sleeping-bags. I noticed that Herb had found a dip in the surrounding sand and settled down in it. I started to follow but Bill whispered to me, “Not there! It’s an alligator’s trail. Herb will not be there in the morning!” Bill was right: Herb had moved his sleeping area by the morning. Breakfast was a silent affair – corn flakes and water and some weak tea were not the most exciting start to a long day’s coring in hot conditions. Bill, resourceful as ever, suggested Herb organise the boats and coring equipment while Bill and I drive into town and get some proper supplies. When we returned, Bill discovered that Herb had brought the most dilapidated, barely functional corer with not enough piston wire for 40+ m of water, some rods that did not fit together, not enough plastic or aluminium foil to wrap the cores in, and no water-depth gauge! Most atypically, Bill really lost his temper with Herb – the only time I ever saw Bill lose his temper in the 40 years that I knew him. Herb was silent and disappeared into town to find a hardware store, his saving grace on so many coring (mis)adventures.</p>
@@ -401,19 +409,19 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/SheelarLLake.jpg" class="img-fluid figure-img" alt="Part of a lake surrounded by shrubby vegetation at dusk"></p>
-<figcaption class="figure-caption">Sheelar Lake</figcaption>
+<figcaption>Sheelar Lake</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/CoringSheelarLake.jpg" class="img-fluid figure-img" alt="Three men on a raft on a lake"></p>
-<figcaption class="figure-caption">Three men on a raft</figcaption>
+<figcaption>Three men on a raft</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/Quercus-laurifolia_Q.virgininiana_SheelarLake.jpg" class="img-fluid figure-img" alt="Oak trees on the shore of a lake"></p>
-<figcaption class="figure-caption"><em>Quercus laurifolia - Q. virgininiana</em> fringe at Sheelar Lake</figcaption>
+<figcaption><em>Quercus laurifolia - Q. virgininiana</em> fringe at Sheelar Lake</figcaption>
 </figure>
 </div>
 <p>We experienced a typical Florida thunderstorm that evening, so we drove to a nearby restaurant for supper. Famished, Bill and I ordered large T-bone steaks with French fries, whilst Herb ordered a baked potato! The waitress looked at Herb and asked “What’s wrong with you, Beardie?” Herb very quietly said “I am in Florida”. End of conservation.</p>
@@ -422,7 +430,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/GoldHeadBranchStatePark.jpg" class="img-fluid figure-img" alt="A number of thin trees with blue sky behind"></p>
-<figcaption class="figure-caption">Gold Head Branch State Park</figcaption>
+<figcaption>Gold Head Branch State Park</figcaption>
 </figure>
 </div>
 <p>We then moved north in search of potential coring sites. That night, Bill drove us into a motel and booked a room for three people – Herb said two people; he was going to sleep out! Bill said nothing and after supper (Herb was now addicted to baked potatoes), Bill and I retired to bed. Bill fully locked our room. I asked “Is this because we are in Florida?” Bill answered, “No, it is to keep Herb out! He has not seen the weather forecast of major storms.” Sure enough at about 4 a.m. a very wet Herb was knocking on our door!</p>
@@ -430,32 +438,32 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/TorreyaStatePark.jpg" class="img-fluid figure-img" alt="Green vegetation between trees"></p>
-<figcaption class="figure-caption">Mesic forest with <em>Rhapidophyllum</em> in openings, Torreya State Park</figcaption>
+<figcaption>Mesic forest with <em>Rhapidophyllum</em> in openings, Torreya State Park</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/Nyssa_sylvaticum floodplain forest.jpg" class="img-fluid figure-img" alt="Trees growing near muddy water"></p>
-<figcaption class="figure-caption"><em>Nyssa sylvatica</em> floodplain forest</figcaption>
+<figcaption><em>Nyssa sylvatica</em> floodplain forest</figcaption>
 </figure>
 </div>
 <p>We tried several other lakes, but with little success – Deer Lake, Clear Lake, Camel Pond, and Lake Hall. This gave me the chance to see more of Florida’s vegetation and flora that I had read about in Bill’s papers about Lake Annie, Mud Lake, and Lake Louise, such as <em>Ceratiola erocoides</em> heath on sand-dunes, many different <em>Pinus</em> species (<em>P. clausa, P. taeda, P. elliottii</em>), and <em>Taxodium distichium</em> swamps at Manatee Springs.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/DeerLake.jpg" class="img-fluid figure-img" alt="Lake shoreline with water, vegetation, and blue sky"></p>
-<figcaption class="figure-caption"><em>Seranoa repens</em> fringe, Deer Lake</figcaption>
+<figcaption><em>Seranoa repens</em> fringe, Deer Lake</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/BillWatts-near-CamelPond.jpg" class="img-fluid figure-img" alt="A man looking at some plants amongst a stand of pine trees"></p>
-<figcaption class="figure-caption">Bill Watts in pine wood by Camel Pond</figcaption>
+<figcaption>Bill Watts in pine wood by Camel Pond</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/ManateeSprings.jpg" class="img-fluid figure-img" alt="A pondweed-covered lake surrounded by trees"></p>
-<figcaption class="figure-caption">Small hollow dominated by <em>Wolfia</em> duckweed, Manatee Springs</figcaption>
+<figcaption>Small hollow dominated by <em>Wolfia</em> duckweed, Manatee Springs</figcaption>
 </figure>
 </div>
 <p>It was a really wonderful trip, despite the problems with field-camping, coring equipment, and tough sediments, and the “I am in Florida” attitude of Herb. I learnt a huge amount about open-water coring which has served me in very good stead in the last 30 years. I saw many new plants and vegetation thanks to Bill’s knowledge and generosity. Moreover I acquired a huge admiration for the work that Bill had done and went on to do on the vegetation history of the south-eastern United States. Nothing is easy there – good sites are rare, coring is difficult, the flora and its pollen flora are challenging, and interpretation can be difficult. I also realised what a remarkable pair of opposites Herb and Bill made in the field, both determined to find good sites and obtain good cores but how they went about fieldwork was somewhat contrasting!</p>
@@ -506,18 +514,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -549,11 +546,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
-  function tippyHover(el, contentFn) {
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/CathyJenks\.github\.io\/SedimentalJourneys\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -563,8 +599,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -576,7 +621,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -620,6 +788,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -645,6 +814,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -705,6 +900,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 

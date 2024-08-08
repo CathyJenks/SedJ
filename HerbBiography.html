@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.5.56">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>SedimentalJourneys – herbbiography</title>
+<title>herbbiography – SedimentalJourneys</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -45,7 +45,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -54,6 +60,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -68,42 +75,42 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">SedimentalJourneys</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
- <span class="menu-text">Home</span></a>
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
- <span class="menu-text">About</span></a>
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools ms-auto">
-</div>
           </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./HerbBiography.html">Chapters</a></li><li class="breadcrumb-item"><a href="./HerbBiography.html">Herbert E Wright, Jr – a biography</a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
-      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./HerbBiography.html">Chapters</a></li><li class="breadcrumb-item"><a href="./HerbBiography.html">Herbert E Wright, Jr – a biography</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -112,7 +119,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
         <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
@@ -128,9 +135,9 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
  <span class="menu-text">Chapters</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -290,7 +297,7 @@ ul.task-list li input[type="checkbox"] {
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -339,6 +346,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+
 <section id="herbert-e-wright-jr-a-biography" class="level1">
 <h1>Herbert E Wright, Jr – a biography</h1>
 <p>by <em>John Birks</em></p>
@@ -377,7 +385,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/HEW_AAC.jpg" class="img-fluid figure-img" alt="A sepia portrait of a young man in an air-force uniform"></p>
-<figcaption class="figure-caption">Herb Wright in the 95th Bombardment Group of the Army Air Corps in 1944 (photo supplied by Jim Almendinger)</figcaption>
+<figcaption>Herb Wright in the 95th Bombardment Group of the Army Air Corps in 1944 (photo supplied by Jim Almendinger)</figcaption>
 </figure>
 </div>
 <p>When America entered World War II, Herb enlisted in 1942 as an air-cadet and became a B-17 Flying Fortress bomber pilot in the Army Air Corps. He finished writing his PhD thesis in boot camp in Nashville and whilst he was being trained to fly B-17 bombers at Geiger Field and Ephrata Air Bases, Washington, Rapid City Army Air Base, South Dakota, and Pyote, west Texas. He made two tours of combat duty based in Britain and flew 48 missions in 1944–1945 including runs over Germany during D-Day, over Berlin after D-Day, and at the Battle of the Bulge (Wright, unpublished note ‘1944 England’). He served as a pilot, command pilot, and group operations officer, reaching the rank of major (Schwartz 1972). He belonged to the 95<sup>th</sup> Bombardment Group stationed at RAF Horham near Bury St Edmonds in East Anglia. The 95<sup>th</sup> Group was the only Eighth Air Force group awarded three Distinguished Unit Citations and had the highest total claims of enemy aircraft (425) destroyed (Morris &amp; Hawkins 2012). He was awarded the Air Medal six times, the Distinguished Flying Cross twice, and the Croix de Guerre from Charles de Gaulle. During his spare time at Horham, Herb visited by bicycle several classical Quaternary sites in the area including the famous interglacial site at Hoxne where he found Palaeolithic implements and Diss Mere, a lake that he was to revisit to core in 1979.</p>
@@ -395,7 +403,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/clipboard-3030846082.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Herb Wright, 1959 (photo supplied by Jim Almendinger)</figcaption>
+<figcaption>Herb Wright, 1959 (photo supplied by Jim Almendinger)</figcaption>
 </figure>
 </div>
 <p>Herb had a large teaching load (Schwartz 1972) with courses or seminar series on structural geology, stratigraphy, and glaciology, as well as on his research interests such as physical geology and geomorphology, glacial geology, Quaternary environmental change, and landscape and climate history. He lectured to thousands and advised more than 75 graduate and PhD students during his 60+ years at the University of Minnesota. The lessons that Herb taught extended far beyond the lecture-hall or the field – they were lessons in modesty, conciseness, kindness, loyalty, devotion to sharing and understanding, and survival (see <a href="./HEWMemories.html">Memories of HEWright</a> by Bob Baker).</p>
@@ -415,7 +423,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/clipboard-2855777782.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Åsa Björck listening captivated to her big favourite Herb, reading an exciting story, with Rhea Wright as an attentive spectator, Twin Cities, 1982 (photo by Svante Björck)</figcaption>
+<figcaption>Åsa Björck listening captivated to her big favourite Herb, reading an exciting story, with Rhea Wright as an attentive spectator, Twin Cities, 1982 (photo by Svante Björck)</figcaption>
 </figure>
 </div>
 <p>Herb died peacefully at his St Anthony Park home in St Paul on 12 November 2015 after a long illness. Rhea predeceased him on 21 January 1988 as did sons Peter and Rex. His sons Richard (‘Dick’), John, Andy, and Jeffrey survive him along with his grandchildren Patrick, Christopher, Thierry, and Theora, and great-grandson Adrian, as do daughter-in-law Sylvie (widow of Rex), Vibeke, Christa, and Maria, partners of Dick, John, and Jeffrey, respectively, and Marianne Wright. For the last 14 years of his life, Herb was lovingly cared for by his dear friend and colleague Ivanka (‘Vania’) Stefanova.</p>
@@ -434,7 +442,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="geological-archaeology">1. Geological archaeology</h3>
 <p>Before being hired by the University of Minnesota, Herb Wright was a teaching instructor at Brown University (Providence, Rhode Island) (1945–1947) where he worked on glacial geology. During the summer of 1947, he went to coastal Lebanon to make a sedimentary and geomorphological study of the Ksar Akil Upper Palaeolithic rock shelter near Beirut (Wright 1951), as part of a Boston College–Fordham University excavation at the suggestion of Kirk Bryan Sr and Hallam Movius (1907-1987). The rock shelter is now recognised as an important site that encompasses Mousterian and Upper Palaeolithic industries in a 23-metre thick deposit. Herb wrote “I shudder to think that my field area was in West Beirut itself, where cemented coastal sand dunes and intercalated soils and marine shell beds suggested a story of environmental change” (Wright, unpublished note ‘Wengen’). Initially Herb travelled each day by tram (street-car) from his lodgings at the American University of Beirut. He later lived with Jesuit archaeologists at the archaeological site. They were looked after by an Armenian cook who maintained an excellent field camp. Herb borrowed an old car and explored the marine terraces and other geomorphological features of the Lebanese coast and became fascinated by the environmental history and landscapes of the Near East (Wright 1996; Wright, unpublished note ‘Wengen’).</p>
 <p>The archaeological contacts that resulted from Herb’s 1947 Lebanon expedition led to him being engaged by the Oriental Institute, University of Chicago as a field geologist to work with Robert J Braidwood (1907–2003) and others on the ‘hilly flanks’ of Iraq, in particular Iraqi Kurdistan. Herb worked there in 1951 when he had a leave of absence from the University of Minnesota for three months during which he held a Wenner-Gren Fellowship (Schwartz 1972). He determined the extent of erosion of the prehistoric site of Jarmo (the earliest city in the world) on top of a river bluff that had been eroded away. He also worked at Karim Shahir and the middle Palaeolithic site at Barda Balka (Wright 1952). There were inevitable adventures and misadventures on this 1951 expedition – vehicle malfunctions and other problems, running out of fuel, getting stuck in mud, illness, unusual food, etc. (Wright, unpublished notes ‘Wadis’, ‘Another adventure with mudholes and empty gas tanks’, ‘Iraq March 14 1951, ‘Iraq Jan 30 1951’, ’51-22 Jarmo’).</p>
-<table class="table">
+<table class="caption-top table">
 <caption>Fieldwork problems in Iraq, 1951 (photos by Allan Martini)</caption>
 <colgroup>
 <col style="width: 50%">
@@ -455,7 +463,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/clipboard-1509628606.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Lake Zeribar, Zagros Mountains, Iran. Field-camp by the lake, 1963 (photo by Bob Megard)</figcaption>
+<figcaption>Lake Zeribar, Zagros Mountains, Iran. Field-camp by the lake, 1963 (photo by Bob Megard)</figcaption>
 </figure>
 </div>
 <p>The Iraqi revolution in 1957 precluded further work in Iraq, so activities shifted across the mountains into <a href="./Kurdistan.html">Iranian Kurdistan</a> in 1960 (Wright, unpublished note ‘Wengen’). Herb’s frustration with undated landforms, along with his developing interest in lakes and their sediments, resulted in him coring many small lakes in western Iran including Lake Zeribar north-west of Kermenshah (which he also cored in 1960, 1963, and 1970) in the Zagros Mountains and other sites later in eastern Turkey and Israel. He had several more field seasons in the Near East as part of Braidwood’s investigations of early villages and the origin of agriculture. With Krystyna Wasylikowa (Krakow), Willem van Zeist (Groningen), Bob Megard (Minnesota), and others Wright masterminded in the early 1960s a detailed multidisciplinary study of the Zeribar sediments, involving pollen, plant macrofossils, diatoms, cladocera, mollusca, geochemistry, stable isotopes, and radiocarbon dating (Wasylikowa &amp; Witkowski 2008). Herb and his colleagues found a reasonable correlation between the time when the regional vegetation changed from steppe to forest and the time when plants were first domesticated, and Herb subsequently developed several new hypotheses to link climatic change and cultural events (Wright 1968a, 1976a, 1977a; Wright &amp; Thorpe 2003). These replaced the earlier ideas of Childe (1929) on the early domestication of plants and animals in the Near East.</p>
@@ -526,7 +534,7 @@ Zumberge JH. (1952) The lakes of Minesota: Their origin and classification. Minn
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/clipboard-3375779173.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Cathy Whitlock and Herb Wright with a core of surface-mud from a small lake in Yellowstone National Park, 1987 (photo by Dan Engstrom)</figcaption>
+<figcaption>Cathy Whitlock and Herb Wright with a core of surface-mud from a small lake in Yellowstone National Park, 1987 (photo by Dan Engstrom)</figcaption>
 </figure>
 </div>
 <p>One of Herb’s MSc students Richard (‘Dick’) G Baker learnt macrofossils from Bill Watts (Baker 1965) and went on to do detailed and important macrofossil work in Yellowstone (Baker 1976) and in the Midwest (Baker et al.&nbsp;1989, 1996, 2002, 2009).</p>
@@ -541,7 +549,7 @@ Zumberge JH. (1952) The lakes of Minesota: Their origin and classification. Minn
 <p>With the ever-increasing interdisciplinary nature of many of Herb Wright’s research activities involving lake sediments and the importance of lakes in the Minnesotan landscape, it was natural that in 1959 a Limnological Research Center (LRC) was established within the University of Minnesota with the support of a separate grant from St Paul’s Hill Family Foundation. Herb became the director of the LRC in 1963 and the pollen laboratory was incorporated into the LRC within the Department of Geology and Geophysics. As he had done in the early days of the pollen laboratory, Herb enticed several leading European palaeolimnologists to come and work in the LRC, including Maj-Britt Florin (1905-1993) and Ingemar Renberg from Sweden and Elizabeth Haworth and Richard (‘Rick’) W Battarbee from England. Herb also attracted many talented post-doctoral palaeolimnologists including Bob Megard, John Platt Bradbury (1936-2005), John C Kingston (1949-2004), Richard (‘Dick’) B Brugam, Mel Whiteside, and Thomas Crisman and recruited several outstanding graduate students (e.g.&nbsp;Sherilyn C Fritz, Daniel R Engstrom) to work on different palaeolimnological projects (Wright 1994). A wide range of such projects quickly developed (e.g.&nbsp;Bright 1968; Winter &amp; Wright 1977; Wright 1966, 1981b, 1992a, 2010). The original emphasis was on diatoms (e.g.&nbsp;Bradbury 1975), cladocerans (e.g.&nbsp;Megard 1964, 1967; Quade 1969), and ostracods, but broadened as new techniques were developed and refined such as pigment analysis, stable-isotope analyses, sediment geochemistry, mineralogy, and magnetics. Studies on lake-level changes and palaeohydrological modelling of prairie lakes (e.g.&nbsp;JE Almendinger 1990, 1993; Digerfeldt et al.&nbsp;1992; Winter &amp; Wright 1977) and on lake-sedimentation processes (Almquist-Jacobson et al.&nbsp;1992) were also pursued.</p>
 <p>Important studies on lake eutrophication were made in the 1970s (Birks et al.&nbsp;1976; Bradbury 1975; Bradbury &amp; Megard 1972; Bradbury &amp; Waddington 1973; Brugam 1979; Gorham &amp; Sanger 1976), often involving a multiproxy approach with pollen and diatom analyses and sediment geochemistry. Palaeolimnological techniques such as diatom analysis, pigment analysis, or geochemistry were applied to several ‘classic’ Herb Wright sites such as Kirchner Marsh (Brugam 1980; Florin 1970; Florin &amp; Wright 1969; Sanger &amp; Gorham 1972) and Pickerel Lake (Dean &amp; Schwalb 2000; Haworth 1972).</p>
 <p>Elk Lake in north-west Minnesota became a site for much LRC palaeolimnological research (Anderson et al.&nbsp;1993; Bartlein &amp; Whitlock 1993; Birks et al.&nbsp;1976; Bradbury &amp; Dean 1993; Bradbury and Dieterich-Rurup 1993; Bradbury et al.&nbsp;1993; Brugam 1993; Dean et al.&nbsp;1984; Megard et al.&nbsp;1993; Sanger &amp; Hay 1993; Stark 1976; Whitlock et al.&nbsp;1993; Wright 1993; Zeeb &amp; Smol 1993). The first study (Stark 1976) involved collecting seven sediment cores and 25 surface samples from a transect across the lake. The surface samples were used to establish the ostracod, molluscan, and chironomid assemblages at different water depths. Stark (1976) determined the fossil composition for 14-25 levels in each of the seven cores to reconstruct the trophic sequence with respect to the sediment type (Wright 2010). The environmental settings for the trophic histories were inferred from skeletal pollen diagrams prepared for each core. This demanding multi-proxy study was all done by Donna Stark for her doctoral study. A second study at Elk Lake (Birks et al.&nbsp;1976) concerned recent lake responses to catchment changes. The study involved three lakes, two badly polluted (Sallie Lake and St Clair Lake) and one control (Elk Lake) and pollen, plant macrofossil, cladoceran, and diatom analyses (Birks 2016). The third and major palaeolimnological study at Elk Lake involved (after several unsuccessful coring attempts) a 22-m-long series of cores from a continuously laminated sequence of post-glacial (10,400 years) sediment recovered from 29.6 m water depth in the deepest part of Elk Lake in 1978 and 1982. These cores were intensively studied by several investigators for their pollen (Bartlein &amp; Whitlock 1993; Whitlock et al.&nbsp;1993), diatoms (Bradbury &amp; Dietrich-Rurup 1993; Brugam 1993), chrysophyte cysts (Zeeb &amp; Smol 1993), charcoal (Clark 1993; Whitlock et al.&nbsp;1993), geochemistry (Dean 1993; Dean &amp; Megard 1993; Dean et al.&nbsp;1993), mineralogy (Anderson 1993; Dean 1993), stable carbon and oxygen isotopes (Dean &amp; Stuiver 1993), pigments (Sanger &amp; Hay 1993), and sedimentation (Dean &amp; Megard 1993; Nuhfer et al.&nbsp;1993; Sprowl 1993). The results of this remarkable study were published as 20 papers in a Geological Society of American Special Paper edited by J Platt Bradbury and Walter E Dean (Bradbury &amp; Dean 1993). Herb had been involved in many attempts at obtaining continuous cores from the deep hole of Elk Lake from 1967 to 1982 and he had many more failures than successes! 1970 produced a successful continuous core but on our return to Minneapolis the trailer containing the cores became detached and the cores were badly damaged and unusable. Herb was mortified and silent, but in a day or two he was talking quietly about a possible return to Elk Lake! He had to wait until 1971 for that.</p>
-<table class="table">
+<table class="caption-top table">
 <caption>Elk Lake, Itasca State Park, north-west Minnesota, in July 1970 (left) and coring its sediments from the ice in March 1970 (right) (photos by John Birks)</caption>
 <colgroup>
 <col style="width: 50%">
@@ -573,7 +581,7 @@ Zumberge JH. (1952) The lakes of Minesota: Their origin and classification. Minn
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/clipboard-3193443595.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Myrtle Lake (north-east Minnesota) peatland surface patterns of string ‘flarks’ running from a mineral-rich area, October 1970 (photo by John Birks)</figcaption>
+<figcaption>Myrtle Lake (north-east Minnesota) peatland surface patterns of string ‘flarks’ running from a mineral-rich area, October 1970 (photo by John Birks)</figcaption>
 </figure>
 </div>
 <p>Miron (‘Bud’) L Heinselman (1920-1993) began his doctoral research on the ecology and growth of black spruce (<em>Picea mariana</em>) on the Glacial Lake Agassiz peatlands east of the prairies of the Red River Valley in northern Minnesota. He attended several of Herb’s courses on glacial geology and geomorphology and Herb joined Bud’s doctoral committee. They became life-long friends with many common interests, most particularly conservation and management (see the next section of Fire History). Herb encouraged widening Bud’s doctoral research topic to include peatland hydrology and the striking vegetational patterns that are so characteristic of these peatlands. Heinselman (1963) concluded that the peatland patterns were examples of a whole suite of peatland surface-patterns that occur in different forms around the entire circum-boreal region (e.g.&nbsp;Sjörs 1959, 1961).</p>
@@ -600,25 +608,25 @@ Zumberge JH. (1952) The lakes of Minesota: Their origin and classification. Minn
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/clipboard-3019821472.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Herb Wright and his son Dick with an early model of a Livingstone piston corer at Lake Zeribar, Iran, 1963 (photo by Bob Megard)</figcaption>
+<figcaption>Herb Wright and his son Dick with an early model of a Livingstone piston corer at Lake Zeribar, Iran, 1963 (photo by Bob Megard)</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/clipboard-3893854685.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Herb Wright sediment-coring from an ingenious (and rather elaborate for Herb!) platform made of local poplar poles at Nilofar spring lake, Iran, 1963 (photo by Bob Megard)</figcaption>
+<figcaption>Herb Wright sediment-coring from an ingenious (and rather elaborate for Herb!) platform made of local poplar poles at Nilofar spring lake, Iran, 1963 (photo by Bob Megard)</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/clipboard-668338341.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Herb Wright attempting to sediment-core from a tyre inner-tube at Little Giant Basin, San Juan Mountains, Colorado, July 1959 (photo by Lou Maher)</figcaption>
+<figcaption>Herb Wright attempting to sediment-core from a tyre inner-tube at Little Giant Basin, San Juan Mountains, Colorado, July 1959 (photo by Lou Maher)</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/clipboard-579993593.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Herb Wright and his double at the Geological Society of America annual meeting in Minneapolis, 2011 (provider of photo unknown)</figcaption>
+<figcaption>Herb Wright and his double at the Geological Society of America annual meeting in Minneapolis, 2011 (provider of photo unknown)</figcaption>
 </figure>
 </div>
 <p>He produced in conjunction with Jim Smith at a small machine-shop in St Paul hundreds of square-rod corers (including later a version suitable for coring into fibrous peat; Wright et al.&nbsp;1984) and constructed over 4000 m of drive rods for colleagues around the world (Wright 2010). There seems to be a physical limit to how much sediment can be collected with this type of equipment, even with the help of chain-hoists and a drill-frame (Cushing &amp; Wright 1965; Wright 1980c, 1991; Wright et al.&nbsp;1965). Herb’s record is 40 m of core from Lake Zeribar collected in 1970 from a fringing peat mat (Wright 2010). This may be a world record.</p>
@@ -631,7 +639,7 @@ Zumberge JH. (1952) The lakes of Minesota: Their origin and classification. Minn
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/clipboard-753192043.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Herb Wright writing and editing a manuscript about the vegetational history of Minnesota, 1995 (photo by Brigitta Ammann)</figcaption>
+<figcaption>Herb Wright writing and editing a manuscript about the vegetational history of Minnesota, 1995 (photo by Brigitta Ammann)</figcaption>
 </figure>
 </div>
 <p>Herb published over 200 scientific articles or book chapters, edited 15 books, and six Special Issues of journals (see Appendix and <a href="./WrightHE_Publications.html">publication list</a>). He edited and often rewrote thousands of manuscripts by colleagues from all over the world, modestly writing in his comments and edits in pencil. For example, he played a major part (Wright, unpublished note ‘Wengen 2’) in the editing and illustrating of <em>Palaeoecological Events During the Last 15,000 Years</em> (Berglund et al.&nbsp;1996), a compilation of Holocene events and important pollen-stratigraphical diagrams for almost all European countries. Herb (Wright, unpublished note ‘Wengen 2’) commented about editing the magnum opus <em>The Quaternary of the United States</em> (Wright &amp; Frey 1965) “I must have enjoyed doing this – perhaps it goes back to my days editing the high-school newsletter – so I agreed to edit the proceedings, which involved finding publishers around the country who would take on a symposium with supplementary related papers.”</p>
@@ -640,7 +648,7 @@ Zumberge JH. (1952) The lakes of Minesota: Their origin and classification. Minn
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/clipboard-521478883.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Portrait of Herb Wright in the Lost River Peatland, northern Minnesota painted by Rebne Karchefsky on the occasion of Herb’s official retirement.</figcaption>
+<figcaption>Portrait of Herb Wright in the Lost River Peatland, northern Minnesota painted by Rebne Karchefsky on the occasion of Herb’s official retirement.</figcaption>
 </figure>
 </div>
 <p>Herb’s generosity in editing (and often rewriting) manuscripts for his colleagues worldwide contributed greatly not only to the quality of the Quaternary literature but also invaluable scientific networking and international collaborations (Wright, unpublished notes ‘Wengen 2’ and ‘Sils remarks’).</p>
@@ -651,7 +659,7 @@ Zumberge JH. (1952) The lakes of Minesota: Their origin and classification. Minn
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/clipboard-1354720282.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Herb Wright and the 2002 International Moor Excursion at Kråkenes, western Norway. This is a late-glacial site intensively studied by Hilary Birks and colleagues. Herb helped Hilary edit a Special Issue of <em>Journal of Paleolimnology</em> on the reconstruction of the late-glacial and early-Holocene aquatic ecosystems at Kråkenes Lake. Herb is sitting on the far left and Hilary is sitting at the far right in the front.</figcaption>
+<figcaption>Herb Wright and the 2002 International Moor Excursion at Kråkenes, western Norway. This is a late-glacial site intensively studied by Hilary Birks and colleagues. Herb helped Hilary edit a Special Issue of <em>Journal of Paleolimnology</em> on the reconstruction of the late-glacial and early-Holocene aquatic ecosystems at Kråkenes Lake. Herb is sitting on the far left and Hilary is sitting at the far right in the front.</figcaption>
 </figure>
 </div>
 <p>In his retirement, Herb was a <a href="http://www.eecrg.uib.no/HerbWright/Travelling-with-Herb.pdf">regular visitor to Europe</a> to visit laboratories and friends, explore new landscapes, and, of course, help core lakes and mires. In addition he was a regular participant on the annual <a href="http://www.botany.unibe.ch/imoorex/index.php">Moor Excursion</a> (Moorexkursion) (later also lakes) of the University of Bern instigated and organised by Gerhard Lang (1924-2016) in 1976, and continued by Brigitta Ammann from 1990 to 2006, and by Willy Tinner from 2007 to today. Between 1980 and 2007, Herb joined 15 of these excursions (Ammann 2016) and attended several international conferences and workshops in Europe. On the occasion of his 90<sup>th</sup> birthday, Herb wrote “I have felt like an academic uncle to her [Brigitta Ammann, Bern] students, whom I have helped with the englishification (John Birks would say americanization) of their manuscripts in preparation for publication” (Wright, unpublished note ‘Sils remarks’). He helped many colleagues core sediments in lakes and mires in Europe, as well as in Peru, Bolivia, Alaska, and Kenya. In his characteristically generous way, he played a large part in the fieldwork and/or in raising research money for several of these expeditions and in writing and editing the resulting manuscripts (e.g.&nbsp;Ahlberget al.&nbsp;2000; Ammannet al.&nbsp;2013; Birks &amp; Wright 2000a, 2000b; Blyakharchuket al.&nbsp;2004, 2007, 2008; Engstromet al.&nbsp;2000; Stefanovaet al.&nbsp;2006a, 2006b; Tinneret al.&nbsp;2006, 2015; Verschurenet al.&nbsp;2000; Westoveret al.&nbsp;2006; Wrightet al.&nbsp;2003).</p>
@@ -659,14 +667,14 @@ Zumberge JH. (1952) The lakes of Minesota: Their origin and classification. Minn
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/clipboard-1564865371.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Herb Wright and friends at the Morteratsch Glacier, Engadine, Switzerland on the occasion of his 90th birthday in 2007. Herb is in the back row wearing a blue hat, between Dan Engstrom and Carrie Jennings (photo supplied by Brigitta Ammann)</figcaption>
+<figcaption>Herb Wright and friends at the Morteratsch Glacier, Engadine, Switzerland on the occasion of his 90th birthday in 2007. Herb is in the back row wearing a blue hat, between Dan Engstrom and Carrie Jennings (photo supplied by Brigitta Ammann)</figcaption>
 </figure>
 </div>
 </section>
 </section>
 <section id="awards-and-honours" class="level2">
 <h2 class="anchored" data-anchor-id="awards-and-honours">Awards and honours</h2>
-<table class="table">
+<table class="caption-top table">
 <colgroup>
 <col style="width: 25%">
 <col style="width: 75%">
@@ -761,7 +769,7 @@ Zumberge JH. (1952) The lakes of Minesota: Their origin and classification. Minn
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/clipboard-841246305.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Herb Wright on the occasion of receiving his Philosophiae Doctor Honoris Causa degree from Lund University, May 1987, with Björn E Berglund, Jim Ritchie, and Roel Janssen (photo by John Birks)</figcaption>
+<figcaption>Herb Wright on the occasion of receiving his Philosophiae Doctor Honoris Causa degree from Lund University, May 1987, with Björn E Berglund, Jim Ritchie, and Roel Janssen (photo by John Birks)</figcaption>
 </figure>
 </div>
 </section>
@@ -783,7 +791,7 @@ Zumberge JH. (1952) The lakes of Minesota: Their origin and classification. Minn
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/clipboard-3200721660.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Herb Wright in Blekinge, 1979 (photo Björn E Berglund)</figcaption>
+<figcaption>Herb Wright in Blekinge, 1979 (photo Björn E Berglund)</figcaption>
 </figure>
 </div>
 </section>
@@ -1288,18 +1296,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -1331,11 +1328,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
-  function tippyHover(el, contentFn) {
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/CathyJenks\.github\.io\/SedimentalJourneys\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -1345,8 +1381,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -1358,7 +1403,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -1402,6 +1570,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -1427,6 +1596,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -1487,6 +1682,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 

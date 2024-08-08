@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.5.56">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>SedimentalJourneys – myrtlemantrap</title>
+<title>myrtlemantrap – SedimentalJourneys</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -45,7 +45,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -54,6 +60,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -68,42 +75,42 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">SedimentalJourneys</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
- <span class="menu-text">Home</span></a>
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
- <span class="menu-text">About</span></a>
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools ms-auto">
-</div>
           </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./HerbBiography.html">Chapters</a></li><li class="breadcrumb-item"><a href="./MyrtleMantrap.html">Adventures in Minnesota 1970: From Myrtle Lake to Mantrap Lake</a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
-      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./HerbBiography.html">Chapters</a></li><li class="breadcrumb-item"><a href="./MyrtleMantrap.html">Adventures in Minnesota 1970: From Myrtle Lake to Mantrap Lake</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -112,7 +119,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
         <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
@@ -128,9 +135,9 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
  <span class="menu-text">Chapters</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -290,7 +297,7 @@ ul.task-list li input[type="checkbox"] {
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -306,6 +313,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+
 <section id="adventures-in-minnesota-1970-from-myrtle-lake-to-mantrap-lake" class="level1">
 <h1>Adventures in Minnesota 1970: From Myrtle Lake to Mantrap Lake</h1>
 <p><em>Hilary Birks</em></p>
@@ -314,11 +322,11 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/MyrtleLake-02.jpg" class="img-fluid figure-img" alt="A round blue lake surrounded by green forest"></p>
-<figcaption class="figure-caption">Aerial view of Myrtle Lake surrounded by swamp spruce forest</figcaption>
+<figcaption>Aerial view of Myrtle Lake surrounded by swamp spruce forest</figcaption>
 </figure>
 </div>
 <p>I had never been so cold before. But worse was to come. Roel Janssen had been analysing surface pollen samples within the Red Lake Peatland, which included Myrtle Lake, in northeast Minnesota. He wanted Herb to get a core from the lake for him so that he could make a regional pollen diagram and use his surface samples to interpret it in terms of past vegetation. Herb pressganged John and I to go coring with him together with Rex Wright and Bud Heinselman. Myrtle Lake is surrounded by Picea mariana peatland forest. At the start of the trail to the lake, we all confidently set off with a snow-mobile, one snow-shoe (!), basic food, tent, coring equipment, etc. The air-temperature was +37F (2.5C) and the snow was wet and slushy and very hard to walk through. We set up camp on a duck-hunters wooden platform. Unfortunately, the edge of the tent did not quite reach the ground but we managed. Bud had seen the weather forecast and knew a cold front was approaching straight from the Arctic. Indeed, we could feel it getting colder. Bud got us all collecting as much wood as possible while it was still light to keep a good fire going. After a chilly supper, we tried to sleep. Herb had kindly given me his Antarctic sleeping bag, but I was still frozen. I made the big mistake of leaving my boots outside the sleeping bag and had a minor drama during the night when I had to get out. As the temperature plunged to -340F (-370C), we all tried to sleep. But my teeth kept involuntarily chattering and helped to keep everyone awake. All except Herb, who snored quietly in his corner of the tent. In the morning his beard was sealed with icicles, so he was quieter than normal.</p>
-<table class="table">
+<table class="caption-top table">
 <colgroup>
 <col style="width: 52%">
 <col style="width: 47%">
@@ -338,13 +346,13 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
 <p><img src="images/MyrtleLake_fire-coring.jpg" class="img-fluid figure-img" alt="Three people pushing a metal core through a fire on a frozen landscape" width="298"></p>
-<figcaption class="figure-caption">Coring through the fire</figcaption>
+<figcaption>Coring through the fire</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/MyrtleLake_snowmobile-problem-01.jpg" class="img-fluid figure-img" alt="A snowmobile on snowy ground in a forest"></p>
-<figcaption class="figure-caption">Preparing to light a fire under the snowmobile so it would start</figcaption>
+<figcaption>Preparing to light a fire under the snowmobile so it would start</figcaption>
 </figure>
 </div>
 <p>By this time, it was late in the day, so retreat was inevitable. It should be easier to walk out on the now frozen snow. However, the snowmobile would not start; it had frozen along with everything else. Ever resourceful, Bud raised it on some coring rods and lit a small fire under the engine. This did the trick, and we were away. We reached the road where the yellow peril was parked. Needless to say, it was frozen solid too and would not start. We were preparing to light a fire under its engine, when fortunately a local man drove past. He kindly drove off and returned with some jump leads that allowed us to start the car. We were eternally grateful, as were not looking forward to another night of camping.</p>
@@ -352,7 +360,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/WolfCreek_1970_HEW-HJBB-01.jpg" class="img-fluid figure-img" alt="Two men either side of a large tripod"></p>
-<figcaption class="figure-caption">Coring Wolkf Creek</figcaption>
+<figcaption>Coring Wolkf Creek</figcaption>
 </figure>
 </div>
 <p>John’s task in Minnesota was to investigate the floral and vegetational development on recently deglaciated land during the late-glacial period. After perusal of the maps and Herb’s great knowledge of the glacial terrain, he chose a site called Wolf Creek, an infilled inter-drumlin palaeolake. Herb drove us and Bob Bailey in the yellow peril, and it was cool (on the feet) to see the snowy road through the floor of the car. Herb had not brought the coring frame, so we erected a tripod of coring rods tied together with yellow rope. This eventually became a bipod as we needed the rod! Herb used his large-diameter square rod piston sampler, and we extruded each section by pushing against the tyre of the car. Mission successful!</p>
@@ -360,11 +368,11 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/KylenLake_1970_pole-dancing.jpg" class="img-fluid figure-img" alt="Two men pole dancing on a frozen lake" width="406"></p>
-<figcaption class="figure-caption">Coring Kylen Lake</figcaption>
+<figcaption>Coring Kylen Lake</figcaption>
 </figure>
 </div>
 <p>Spring suddenly arrived in April, the snow melted, and flowers opened. We tried to follow the development of spring northwards, after a good start on Alice Prairie and Kasota Prairie, with millions of stunning pasque flowers. The progression of spring was very rapid, but by driving further and further north each weekend, we did manage to see the forest floor carpeted with <em>Trillium grandiflorum</em> and other beautiful plants. We made several more plant hunts during the summer, especially with Ed.</p>
-<table class="table">
+<table class="caption-top table">
 <colgroup>
 <col style="width: 60%">
 <col style="width: 39%">
@@ -387,10 +395,10 @@ Studying <em>Shepherdia argentea</em> in N Dakota; Herb, John, Roel, Ed</td>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/CushingFamily.jpg" class="img-fluid figure-img" alt="Seven people having a picnic on a grassy field with some trees"></p>
-<figcaption class="figure-caption">With Ed and Caroline Cushing and family at Cedar Creek in May</figcaption>
+<figcaption>With Ed and Caroline Cushing and family at Cedar Creek in May</figcaption>
 </figure>
 </div>
-<table class="table">
+<table class="caption-top table">
 <colgroup>
 <col style="width: 25%">
 <col style="width: 28%">
@@ -414,21 +422,21 @@ Studying <em>Shepherdia argentea</em> in N Dakota; Herb, John, Roel, Ed</td>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/WoodworthPond_1970.jpg" class="img-fluid figure-img" alt="A woman in a small yellow dinghy on a lake surrounded by reeds"></p>
-<figcaption class="figure-caption">Woodworth Prairie Pond, N Dakota</figcaption>
+<figcaption>Woodworth Prairie Pond, N Dakota</figcaption>
 </figure>
 </div>
 <p>At most of the 32 lakes I sampled I was accompanied by John. When Roel Janssen visited, we sampled some lakes, including an attempt at Lake Sylvia to get surface samples for Roel. We had to cross a large <em>Typha</em> marsh with willow bushes to reach the open water. We gradually sank below boot height. Roel thought that if we used a toboggan to distribute our weight, we might get there. We got further, but then the toboggan sank, us with it, and we had to give up.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/LakeSylvia_1970_RJanssen.jpg" class="img-fluid figure-img" alt="A man standing by an upturned toboggan in a reedy swamp" width="348"></p>
-<figcaption class="figure-caption">Roel Janssen and the toboggan</figcaption>
+<figcaption>Roel Janssen and the toboggan</figcaption>
 </figure>
 </div>
 <p>To sample the lakes in NE Minnesota in the coniferous forest, we spent a pleasant time with Bob and Ann Carlson in their cabin and paddled around the beautiful lakes in their canoe. We found <em>Xyris montana</em>, a dainty yellow sisyrinchium flower, beside one lake, which was new to the flora of Minnesota. It has since been discovered in several localities.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/WampusLake_1970.jpg" class="img-fluid figure-img" alt="A woman in a yellow rubber dinghy on a lake surrounded by forest"></p>
-<figcaption class="figure-caption">Wampus Lake in NE Minnesota</figcaption>
+<figcaption>Wampus Lake in NE Minnesota</figcaption>
 </figure>
 </div>
 <p>I made one sampling expedition on my own to central Minnesota. After sampling a couple of lakes, I arrived at Mantrap Lake. There was a large floating sedge-swamp around the shore, which I struggled over using the boat to stop me sinking. Out on the lake, I was about to start sampling, when the floor of Herb’s inflatable yellow dinghy (called a dingy by Roel Janssen) started to come away from the rim, letting water in. I paddled as fast as possible to the nearest shore, which happened to be covered in a bramble patch, and decided that the lake was well named. Herb’s dinghy was the sort used for playing on beaches. It had no rowlocks and was quite hard to paddle. Ed Cushing said that I should have trashed it ages ago! So I was glad when I could purchase a larger, more sturdy (still yellow) dinghy with rowlocks. I believe Bill and Herb used it later in Florida. I found a lot of mollusc shells in my samples so I got help identifying these from Bob Bright down in the Museum. I never published all the data from the project, including the molluscs, but synthesized the main points in a paper in 1973. Perhaps that bottom drawer should be investigated once more and the mollies resurrected.</p>
@@ -475,18 +483,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -518,11 +515,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
-  function tippyHover(el, contentFn) {
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/CathyJenks\.github\.io\/SedimentalJourneys\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -532,8 +568,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -545,7 +590,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -589,6 +757,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -614,6 +783,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -674,6 +869,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 
