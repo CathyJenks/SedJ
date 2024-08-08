@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "SedJ"
+  title: "SedimentalJourneys"
   navbar:
     left:
       - href: index.qmd
