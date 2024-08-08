@@ -4,6 +4,4 @@ title: "About"
 
 About this site
 
-```{r}
-1 + 1
-```
+This is a compilation of contributions by friends and colleagues in memory of Herb Wright. It was co-ordinated by John Birks and the wesite set-up by Cathy Jenks with the help of Richard Telford.
